@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Examen Interactivo</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .pregunta { margin-bottom: 20px; }
+        .resultado { margin-top: 20px; font-weight: bold; }
+        .correcta { color: green; }
+        .incorrecta { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Examen Interactivo</h1>
+    <div id="contenido"></div>
+    <button onclick="enviarRespuestas()">Enviar Respuestas</button>
+    <div id="resultado" class="resultado"></div>
+
+    <script>
+        let preguntas = [];
+
+        // Cargar el archivo JSON desde GitHub
+        fetch('https://raw.githubusercontent.com/DigitaAvampace/Examenweb/main/examen.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('No se pudo cargar el archivo JSON. Verifica la URL.');
+                }
+                return response.json();
+            })
+            .then(data => {
+                preguntas = data.preguntas;
+                mostrarPreguntas();
+            })
+            .catch(error => {
+                document.getElementById('contenido').innerText = 'Error al cargar el examen: ' + error.message;
+            });
+
+        function mostrarPreguntas() {
+            const contenido = document.getElementById('contenido');
+            contenido.innerHTML = '';
+            preguntas.forEach((pregunta, index) => {
+                const divPregunta = document.createElement('div');
+                divPregunta.className = 'pregunta';
+                divPregunta.innerHTML = `
+                    <p>${index + 1}. ${pregunta.pregunta}</p>
+                    ${pregunta.opciones.map((opcion, i) => `
+                        <label>
+                            <input type="radio" name="pregunta${index}" value="${i}">
+                            ${opcion}
+                        </label><br>
+                    `).join('')}
+                `;
+                contenido.appendChild(divPregunta);
+            });
+        }
+
+        function enviarRespuestas() {
+            let puntaje = 0;
+            preguntas.forEach((pregunta, index) => {
+                const opciones = document.getElementsByName(`pregunta${index}`);
+                opciones.forEach(opcion => {
+                    if (opcion.checked) {
+                        if (parseInt(opcion.value) === pregunta.respuesta_correcta) {
+                            puntaje++;
+                            opcion.parentElement.className = 'correcta';
+                        } else {
+                            opcion.parentElement.className = 'incorrecta';
+                        }
+                    }
+                });
+            });
+            document.getElementById('resultado').innerText = `Obtuviste ${puntaje} de ${preguntas.length} respuestas correctas.`;
+        }
+    </script>
+</body>
+</html>
