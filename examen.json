@@ -1,7 +1,7 @@
 {
   "examenes": [
     {
-      "titulo": "Examen 1",
+      "titulo": "Examen 1 ASPI",
       "instrucciones": "Responde cada pregunta seleccionando la opción (A, B, C o D) que consideres correcta.",
       "preguntas": [
         {
@@ -339,7 +339,7 @@
       }
     },
     {
-      "titulo": "Examen 2",
+      "titulo": "Examen 2 ASPI",
       "instrucciones": "Responde cada pregunta seleccionando la opción (A, B, C o D) que consideres correcta.",
       "preguntas": [
         {
@@ -677,7 +677,7 @@
       }
     },
     {
-      "titulo": "Examen 3",
+      "titulo": "Examen 3 ASPI",
       "instrucciones": "Responde cada pregunta seleccionando la opción (A, B, C o D) que consideres correcta.",
       "preguntas": [
         {
