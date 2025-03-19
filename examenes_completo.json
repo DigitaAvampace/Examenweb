@@ -1,0 +1,1116 @@
+{
+  "examenes": [
+    {
+      "titulo": "Examen 1",
+      "instrucciones": "Responde cada pregunta seleccionando la opción (A, B, C o D) que consideres correcta.",
+      "preguntas": [
+        {
+          "numero": 1,
+          "pregunta": "¿Qué se entiende por “hábito” según M.J. Comellas?",
+          "opciones": {
+            "A": "Una destreza que se adquiere tras la práctica deliberada.",
+            "B": "Una conducta aprendida que se realiza en el momento oportuno, de forma adecuada y sin necesidad de control externo.",
+            "C": "Una reacción automática que no requiere aprendizaje previo.",
+            "D": "Una capacidad inata que se manifiesta sin repetición."
+          }
+        },
+        {
+          "numero": 2,
+          "pregunta": "¿Cuál es la característica principal que diferencia un hábito de una habilidad?",
+          "opciones": {
+            "A": "El hábito es inmutable, mientras que la habilidad se puede modificar.",
+            "B": "La habilidad se refiere a la calidad de la ejecución; el hábito implica la aplicación adecuada de dicha habilidad.",
+            "C": "La habilidad se aprende de forma automática y el hábito requiere supervisión constante.",
+            "D": "No existe diferencia; ambos términos son sinónimos."
+          }
+        },
+        {
+          "numero": 3,
+          "pregunta": "La “rutina” en el proceso de adquisición de hábitos se define como:",
+          "opciones": {
+            "A": "La capacidad de resolver situaciones cotidianas sin ayuda.",
+            "B": "La repetición sistemática de acciones con un propósito educativo.",
+            "C": "La ejecución de una actividad sin errores.",
+            "D": "El conjunto de habilidades motoras básicas."
+          }
+        },
+        {
+          "numero": 4,
+          "pregunta": "Según los contenidos, ¿cuál es el objetivo final del proceso de adquisición de hábitos?",
+          "opciones": {
+            "A": "El dominio de habilidades específicas.",
+            "B": "La automatización de respuestas sin supervisión.",
+            "C": "La autonomía personal.",
+            "D": "La memorización de secuencias de acción."
+          }
+        },
+        {
+          "numero": 5,
+          "pregunta": "En el proceso de enseñanza de hábitos, ¿cuál de las siguientes fases NO forma parte de dicho proceso?",
+          "opciones": {
+            "A": "Preparación.",
+            "B": "Automatización.",
+            "C": "Evaluación final.",
+            "D": "Consolidación."
+          }
+        },
+        {
+          "numero": 6,
+          "pregunta": "Respecto a las “habilidades de planificación” en el aprendizaje de hábitos, es correcto afirmar que:",
+          "opciones": {
+            "A": "Se centran exclusivamente en la ejecución motriz.",
+            "B": "Implican descomponer una tarea en pasos para facilitar su aprendizaje.",
+            "C": "Se aprenden de manera natural sin necesidad de intervención.",
+            "D": "No son relevantes en la educación infantil."
+          }
+        },
+        {
+          "numero": 7,
+          "pregunta": "Entre los requisitos para la adquisición de hábitos destaca la importancia de:",
+          "opciones": {
+            "A": "La repetición inconsistente.",
+            "B": "La autoridad adecuada y la constancia en la enseñanza.",
+            "C": "La improvisación en la metodología.",
+            "D": "La ausencia de relaciones afectivas."
+          }
+        },
+        {
+          "numero": 8,
+          "pregunta": "La evaluación del aprendizaje de hábitos en Educación Infantil debe considerar:",
+          "opciones": {
+            "A": "Únicamente el referente criterial.",
+            "B": "Tanto el progreso individual como el grado de éxito respecto a criterios establecidos.",
+            "C": "Solamente el tiempo dedicado a la actividad.",
+            "D": "La memorización de la secuencia de acciones."
+          }
+        },
+        {
+          "numero": 9,
+          "pregunta": "En relación con la programación de hábitos, es fundamental:",
+          "opciones": {
+            "A": "Ignorar las características individuales de cada niño.",
+            "B": "Alternar el aprendizaje con actividades lúdicas y respetar los ritmos de actividad.",
+            "C": "Dedicar un tiempo único y prolongado sin interrupciones.",
+            "D": "Utilizar únicamente métodos teóricos."
+          }
+        },
+        {
+          "numero": 10,
+          "pregunta": "¿Cuál de los siguientes enunciados es correcto en cuanto a la alimentación en la adquisición de hábitos?",
+          "opciones": {
+            "A": "Se debe enseñar al niño a comer de todo desde el nacimiento.",
+            "B": "Es importante enseñar la utilización de cubiertos y la conducta en la mesa, adecuándose a la etapa evolutiva.",
+            "C": "La colaboración entre familia y escuela no influye en el aprendizaje de hábitos alimenticios.",
+            "D": "No es necesario enseñar el control de la cantidad de alimentos."
+          }
+        },
+        {
+          "numero": 11,
+          "pregunta": "¿Qué estrategia metodológica es preferida para la enseñanza de hábitos en la educación infantil?",
+          "opciones": {
+            "A": "La repetición sin sentido práctico.",
+            "B": "La utilización de estrategias que promuevan la conciencia y la adopción de medidas preventivas.",
+            "C": "La imposición sin diálogo.",
+            "D": "La enseñanza únicamente basada en la teoría."
+          }
+        },
+        {
+          "numero": 12,
+          "pregunta": "En cuanto a la higiene infantil, ¿cuál es una función primordial de la misma?",
+          "opciones": {
+            "A": "Solo prevenir enfermedades sin afectar el desarrollo psíquico.",
+            "B": "Contribuir al bienestar físico, psíquico y social del niño.",
+            "C": "Garantizar únicamente la limpieza del entorno.",
+            "D": "Asegurar la independencia total del adulto en todas las tareas."
+          }
+        },
+        {
+          "numero": 13,
+          "pregunta": "La higiene personal en la primera infancia incluye, entre otros, el cuidado de:",
+          "opciones": {
+            "A": "Solamente la limpieza de la ropa.",
+            "B": "La piel, el cabello, las uñas, y la higiene de los genitales.",
+            "C": "Únicamente la higiene de la boca.",
+            "D": "Los hábitos de estudio."
+          }
+        },
+        {
+          "numero": 14,
+          "pregunta": "Dentro de la higiene general, ¿cuál de las siguientes opciones es correcta?",
+          "opciones": {
+            "A": "La higiene ambiental se refiere solo a la limpieza de la casa.",
+            "B": "La higiene ambiental abarca factores del entorno como clima, vivienda y condiciones del centro educativo.",
+            "C": "La higiene mental se limita a actividades recreativas.",
+            "D": "La higiene escolar es independiente de la higiene general."
+          }
+        },
+        {
+          "numero": 15,
+          "pregunta": "La función del cordón umbilical en la higiene del recién nacido es relevante porque:",
+          "opciones": {
+            "A": "Se debe cortar inmediatamente sin cuidados especiales.",
+            "B": "Requiere cuidados especiales para evitar infecciones hasta su cicatrización.",
+            "C": "No es necesario limpiarlo una vez cortado.",
+            "D": "Su cuidado depende únicamente de la familia sin intervención educativa."
+          }
+        },
+        {
+          "numero": 16,
+          "pregunta": "Respecto al baño del bebé, ¿cuál es la recomendación sobre la temperatura del agua?",
+          "opciones": {
+            "A": "Debe estar por debajo de 30ºC para evitar quemaduras.",
+            "B": "Entre 32ºC y 35ºC, sin superar nunca la temperatura corporal de 37ºC.",
+            "C": "Exactamente a 40ºC para asegurar la limpieza.",
+            "D": "La temperatura no es relevante mientras el ambiente esté caldeado."
+          }
+        },
+        {
+          "numero": 17,
+          "pregunta": "Un ambiente adecuado para el baño del bebé debe tener una temperatura ambiente de:",
+          "opciones": {
+            "A": "10ºC a 15ºC.",
+            "B": "Entre 20ºC y 24ºC.",
+            "C": "Más de 30ºC.",
+            "D": "Cualquier temperatura, siempre que el agua esté caliente."
+          }
+        },
+        {
+          "numero": 18,
+          "pregunta": "La lista de materiales para bañar al bebé debe incluir, entre otros:",
+          "opciones": {
+            "A": "Jabón con pH neutro, esponja natural y toallas de algodón.",
+            "B": "Solo toallas y una bañera sin ningún tipo de jabón.",
+            "C": "Productos para adultos sin considerar la delicadeza del bebé.",
+            "D": "Ropa de abrigo en lugar de toallas."
+          }
+        },
+        {
+          "numero": 19,
+          "pregunta": "Una de las ventajas del baño diario en la infancia es:",
+          "opciones": {
+            "A": "Reducir el contacto con los adultos.",
+            "B": "Favorecer el vínculo afectivo y la relajación del bebé.",
+            "C": "Evitar la supervisión durante la higiene.",
+            "D": "Aumentar la dependencia en los cuidados externos."
+          }
+        },
+        {
+          "numero": 20,
+          "pregunta": "La consolidación en la adquisición de hábitos se define como:",
+          "opciones": {
+            "A": "El inicio del proceso de enseñanza.",
+            "B": "La repetición ocasional de conductas.",
+            "C": "La generalización de las acciones con autoconfianza y autocontrol.",
+            "D": "La evaluación periódica sin cambios en la conducta."
+          }
+        },
+        {
+          "numero": 21,
+          "pregunta": "El proceso de automatización en el aprendizaje de hábitos consiste en:",
+          "opciones": {
+            "A": "Olvidar el proceso de enseñanza una vez terminado.",
+            "B": "Lograr que el niño realice la conducta sin la necesidad de supervisión adulta.",
+            "C": "Enseñar solamente los aspectos teóricos.",
+            "D": "Utilizar únicamente técnicas de castigo."
+          }
+        },
+        {
+          "numero": 22,
+          "pregunta": "Dentro de los instrumentos de evaluación de hábitos, la pauta de observación se utiliza para:",
+          "opciones": {
+            "A": "Solo evaluar el ambiente del aula.",
+            "B": "Observar y registrar individual o grupalmente los logros del niño en relación a los hábitos.",
+            "C": "Sustituir la intervención educativa.",
+            "D": "Medir únicamente el tiempo de ejecución de una tarea."
+          }
+        },
+        {
+          "numero": 23,
+          "pregunta": "¿Qué elemento es fundamental para favorecer el aprendizaje de hábitos alimenticios en Educación Infantil?",
+          "opciones": {
+            "A": "La intervención exclusiva del profesorado.",
+            "B": "La colaboración estrecha entre familia y escuela.",
+            "C": "La ausencia de supervisión durante las comidas.",
+            "D": "La imposición de horarios estrictos sin flexibilidad."
+          }
+        },
+        {
+          "numero": 24,
+          "pregunta": "La habilidad de ejecución en el aprendizaje de hábitos se relaciona con:",
+          "opciones": {
+            "A": "La planificación de pasos en la tarea.",
+            "B": "La realización de movimientos específicos y conductas motoras básicas.",
+            "C": "La evaluación de resultados.",
+            "D": "La repetición de comportamientos sin cambio."
+          }
+        },
+        {
+          "numero": 25,
+          "pregunta": "La autoridad en el proceso de adquisición de hábitos se ejerce:",
+          "opciones": {
+            "A": "De manera autoritaria sin diálogo.",
+            "B": "De forma adecuada, aportando estabilidad y seguridad.",
+            "C": "Solo en situaciones de emergencia.",
+            "D": "Con la intención de imponer sin considerar al niño."
+          }
+        },
+        {
+          "numero": 26,
+          "pregunta": "Respecto a la higiene ambiental, se entiende que:",
+          "opciones": {
+            "A": "Solo depende de la limpieza personal del niño.",
+            "B": "Incluye la calidad del centro educativo y del hogar donde se desenvuelve el niño.",
+            "C": "Es irrelevante en la prevención de enfermedades.",
+            "D": "Solo se aplica en contextos rurales."
+          }
+        },
+        {
+          "numero": 27,
+          "pregunta": "En la programación de la enseñanza de hábitos, ¿cuál es el primer paso?",
+          "opciones": {
+            "A": "Determinar las estrategias metodológicas.",
+            "B": "Establecer los objetivos de la intervención educativa.",
+            "C": "Seleccionar los contenidos conceptuales sin tener en cuenta la etapa evolutiva.",
+            "D": "Evaluar al final del proceso."
+          }
+        },
+        {
+          "numero": 28,
+          "pregunta": "La higiene mental, dentro del concepto de higiene general, se orienta a:",
+          "opciones": {
+            "A": "Mejorar únicamente la apariencia física.",
+            "B": "Favorecer el desarrollo pleno del individuo y su adaptación al entorno social.",
+            "C": "Incrementar el conocimiento teórico sin aplicación práctica.",
+            "D": "Reducir la interacción social."
+          }
+        },
+        {
+          "numero": 29,
+          "pregunta": "La “autoevaluación” en el contexto de la adquisición de hábitos tiene como fin:",
+          "opciones": {
+            "A": "Establecer criterios inamovibles para todos los niños.",
+            "B": "Permitir que el niño reconozca sus propios avances y se ajuste según su nivel de desarrollo.",
+            "C": "Excluir la colaboración familiar.",
+            "D": "Medir únicamente el rendimiento académico."
+          }
+        },
+        {
+          "numero": 30,
+          "pregunta": "La combinación de contenidos de autonomía, hábitos y higiene en la Educación Infantil tiene como finalidad principal:",
+          "opciones": {
+            "A": "Garantizar la independencia total del niño sin necesidad de apoyo.",
+            "B": "Favorecer el desarrollo integral del niño a través de la adquisición de conductas saludables y autónomas.",
+            "C": "Aumentar la carga académica sin considerar el bienestar.",
+            "D": "Enfocar únicamente en la memorización de conceptos teóricos."
+          }
+        }
+      ],
+      "respuestas_correctas": {
+        "1": "B",
+        "2": "B",
+        "3": "B",
+        "4": "C",
+        "5": "C",
+        "6": "B",
+        "7": "B",
+        "8": "B",
+        "9": "B",
+        "10": "B",
+        "11": "B",
+        "12": "B",
+        "13": "B",
+        "14": "B",
+        "15": "B",
+        "16": "B",
+        "17": "B",
+        "18": "A",
+        "19": "B",
+        "20": "C",
+        "21": "B",
+        "22": "B",
+        "23": "B",
+        "24": "B",
+        "25": "B",
+        "26": "B",
+        "27": "B",
+        "28": "B",
+        "29": "B",
+        "30": "B"
+      }
+    },
+    {
+      "titulo": "Examen 2",
+      "instrucciones": "Responde cada pregunta seleccionando la opción (A, B, C o D) que consideres correcta.",
+      "preguntas": [
+        {
+          "numero": 1,
+          "pregunta": "La definición de autonomía personal se basa en:",
+          "opciones": {
+            "A": "La capacidad para realizar actividades únicamente con ayuda.",
+            "B": "La capacidad para resolver situaciones cotidianas sin ayuda externa.",
+            "C": "La memorización de normas sin aplicarlas.",
+            "D": "La ejecución mecánica de tareas sin reflexión."
+          }
+        },
+        {
+          "numero": 2,
+          "pregunta": "Un hábito se consolida cuando:",
+          "opciones": {
+            "A": "Se enseña solo de forma teórica.",
+            "B": "Se repite la conducta de forma sistemática hasta que se realiza sin esfuerzo.",
+            "C": "El adulto corrige constantemente al niño.",
+            "D": "Se practica de manera ocasional."
+          }
+        },
+        {
+          "numero": 3,
+          "pregunta": "La habilidad, en contraste con el hábito, se refiere a:",
+          "opciones": {
+            "A": "La selección correcta de una conducta.",
+            "B": "La capacidad de ejecutar una acción con calidad.",
+            "C": "La automatización de respuestas.",
+            "D": "La ausencia de planificación."
+          }
+        },
+        {
+          "numero": 4,
+          "pregunta": "La rutina en el contexto educativo se caracteriza por:",
+          "opciones": {
+            "A": "La improvisación en la enseñanza.",
+            "B": "La repetición sistemática de acciones con un fin educativo.",
+            "C": "La ausencia de objetivos.",
+            "D": "La enseñanza esporádica de comportamientos."
+          }
+        },
+        {
+          "numero": 5,
+          "pregunta": "Entre las fases del proceso de adquisición de hábitos, la “preparación” implica:",
+          "opciones": {
+            "A": "Evaluar los resultados al final del proceso.",
+            "B": "Comprobar que el niño posee las habilidades y destrezas necesarias para iniciar el aprendizaje.",
+            "C": "La automatización de la conducta.",
+            "D": "El abandono de la supervisión adulta."
+          }
+        },
+        {
+          "numero": 6,
+          "pregunta": "El proceso de “automatización” permite que el niño:",
+          "opciones": {
+            "A": "Realice la tarea únicamente con ayuda.",
+            "B": "Realice la conducta de forma automática sin supervisión.",
+            "C": "Olvide los pasos aprendidos.",
+            "D": "Dependa exclusivamente del adulto en la ejecución."
+          }
+        },
+        {
+          "numero": 7,
+          "pregunta": "Dentro de los requisitos para el aprendizaje de hábitos, la “relación afectiva” es importante porque:",
+          "opciones": {
+            "A": "Impide la adquisición de la conducta.",
+            "B": "Proporciona seguridad y confianza para enfrentar nuevos aprendizajes.",
+            "C": "No influye en la motivación.",
+            "D": "Es secundaria frente a la técnica de enseñanza."
+          }
+        },
+        {
+          "numero": 8,
+          "pregunta": "La intervención de la familia en el proceso de adquisición de hábitos es:",
+          "opciones": {
+            "A": "Irrelevante para el aprendizaje autónomo del niño.",
+            "B": "Fundamental para reforzar y dar continuidad a los aprendizajes desde el hogar.",
+            "C": "Solo necesaria en casos especiales.",
+            "D": "Contraproducente si se hace en conjunto con la escuela."
+          }
+        },
+        {
+          "numero": 9,
+          "pregunta": "Una de las estrategias metodológicas recomendadas para la programación de hábitos es:",
+          "opciones": {
+            "A": "Ignorar el ritmo individual de cada niño.",
+            "B": "Alternar actividades lúdicas con el aprendizaje sistemático.",
+            "C": "Imponer un método único para todos los casos.",
+            "D": "Centrarse únicamente en la repetición sin sentido lúdico."
+          }
+        },
+        {
+          "numero": 10,
+          "pregunta": "Para favorecer el aprendizaje de hábitos alimenticios en el Primer Ciclo, es importante que el niño:",
+          "opciones": {
+            "A": "Coma sin supervisión desde el primer año.",
+            "B": "Aprenda a comer sentado, utilizando con cierta precisión los cubiertos.",
+            "C": "Se le enseñe a comer únicamente con las manos.",
+            "D": "Sea forzado a realizar todas las actividades sin ayuda."
+          }
+        },
+        {
+          "numero": 11,
+          "pregunta": "La higiene infantil es esencial porque:",
+          "opciones": {
+            "A": "Solo tiene efectos en la apariencia física.",
+            "B": "Contribuye al bienestar integral y a la prevención de enfermedades.",
+            "C": "No influye en el desarrollo psíquico.",
+            "D": "Es irrelevante en el ámbito escolar."
+          }
+        },
+        {
+          "numero": 12,
+          "pregunta": "El baño diario en el bebé se recomienda para:",
+          "opciones": {
+            "A": "Mantenerlo únicamente limpio.",
+            "B": "Favorecer la relajación y el vínculo afectivo, además de la higiene.",
+            "C": "Aumentar la irritabilidad del bebé.",
+            "D": "Reducir el contacto con los cuidadores."
+          }
+        },
+        {
+          "numero": 13,
+          "pregunta": "En el cuidado del cordón umbilical, es crucial:",
+          "opciones": {
+            "A": "No utilizar ningún desinfectante.",
+            "B": "Realizar una adecuada limpieza para evitar focos de infección.",
+            "C": "Cubrirlo con pañales comunes sin precaución.",
+            "D": "Omitir el uso de guantes durante la limpieza."
+          }
+        },
+        {
+          "numero": 14,
+          "pregunta": "La higiene ambiental en Educación Infantil se relaciona con:",
+          "opciones": {
+            "A": "La única limpieza de las superficies.",
+            "B": "La calidad del entorno, tanto en el hogar como en el centro educativo.",
+            "C": "Solo la disposición de los juguetes.",
+            "D": "El control de la alimentación."
+          }
+        },
+        {
+          "numero": 15,
+          "pregunta": "La temperatura del agua en el baño del bebé debe mantenerse:",
+          "opciones": {
+            "A": "Por debajo de 30ºC.",
+            "B": "Entre 32ºC y 35ºC, sin superar la temperatura corporal.",
+            "C": "En torno a 40ºC.",
+            "D": "Sin necesidad de control."
+          }
+        },
+        {
+          "numero": 16,
+          "pregunta": "La toalla de algodón para el baño del bebé es preferible porque:",
+          "opciones": {
+            "A": "Es menos absorbente que otras telas.",
+            "B": "Es suave y evita irritaciones en la piel delicada del bebé.",
+            "C": "Es más económica sin importar la calidad.",
+            "D": "No requiere lavarse con regularidad."
+          }
+        },
+        {
+          "numero": 17,
+          "pregunta": "El “referente individualizado” en la evaluación de hábitos se refiere a:",
+          "opciones": {
+            "A": "Comparar al niño con sus compañeros.",
+            "B": "Medir el avance del niño respecto a su propio nivel de desarrollo.",
+            "C": "Establecer estándares absolutos para todos.",
+            "D": "Evaluar únicamente la ejecución motriz."
+          }
+        },
+        {
+          "numero": 18,
+          "pregunta": "La “evaluación de la programación” en la adquisición de hábitos tiene como fin:",
+          "opciones": {
+            "A": "Solo corregir errores sin retroalimentación.",
+            "B": "Reorientar el proceso de enseñanza-aprendizaje a lo largo del mismo.",
+            "C": "Establecer castigos para conductas inadecuadas.",
+            "D": "Ignorar los avances individuales."
+          }
+        },
+        {
+          "numero": 19,
+          "pregunta": "La higiene mental forma parte de:",
+          "opciones": {
+            "A": "La higiene individual.",
+            "B": "La higiene general, orientada a facilitar la adaptación social.",
+            "C": "Únicamente la salud física.",
+            "D": "La higiene ambiental exclusivamente."
+          }
+        },
+        {
+          "numero": 20,
+          "pregunta": "La secuenciación de las acciones en el proceso de adquisición de hábitos se realiza considerando:",
+          "opciones": {
+            "A": "La velocidad de ejecución sin importar la comprensión.",
+            "B": "La madurez psicológica y las capacidades individuales del niño.",
+            "C": "Un plan único para todos los niños.",
+            "D": "La eliminación de pasos intermedios."
+          }
+        },
+        {
+          "numero": 21,
+          "pregunta": "La coordinación entre habilidades de ejecución y planificación permite que:",
+          "opciones": {
+            "A": "El niño realice actividades de manera desorganizada.",
+            "B": "Se simplifique la tarea y se facilite la ejecución de la conducta.",
+            "C": "Solo se trabaje la parte teórica.",
+            "D": "Se evite la participación activa del niño."
+          }
+        },
+        {
+          "numero": 22,
+          "pregunta": "El uso de instrumentos como el termómetro sumergible en el baño tiene como objetivo:",
+          "opciones": {
+            "A": "Verificar la temperatura exacta del agua para la seguridad del bebé.",
+            "B": "Solo medir el tiempo de baño.",
+            "C": "Sustituir la supervisión adulta.",
+            "D": "No tiene relevancia en el proceso higiénico."
+          }
+        },
+        {
+          "numero": 23,
+          "pregunta": "Una “estrategia negativa” en la promoción de la salud se caracteriza por:",
+          "opciones": {
+            "A": "Resaltar los beneficios de los hábitos saludables.",
+            "B": "Destacar las consecuencias negativas de conductas perjudiciales.",
+            "C": "Ignorar las consecuencias del mal comportamiento.",
+            "D": "Promover exclusivamente la crítica sin propuestas de mejora."
+          }
+        },
+        {
+          "numero": 24,
+          "pregunta": "La preparación del ambiente para el baño del bebé incluye:",
+          "opciones": {
+            "A": "Caldear la habitación y evitar corrientes de aire.",
+            "B": "Dejar la habitación fría para despertar al bebé.",
+            "C": "No preparar ningún material previamente.",
+            "D": "Solo preocuparse por la bañera, sin considerar la temperatura ambiente."
+          }
+        },
+        {
+          "numero": 25,
+          "pregunta": "La “consolidación” en el proceso de adquisición de hábitos significa que:",
+          "opciones": {
+            "A": "El niño aún depende del adulto para iniciar la acción.",
+            "B": "El niño ha logrado integrar la conducta en su repertorio de forma generalizada y autónoma.",
+            "C": "La conducta se ejecuta de forma esporádica.",
+            "D": "Solo se ha aprendido la parte teórica de la conducta."
+          }
+        },
+        {
+          "numero": 26,
+          "pregunta": "La “autoevaluación” en la programación de hábitos permite:",
+          "opciones": {
+            "A": "Que el niño se compare negativamente con sus compañeros.",
+            "B": "Reconocer sus avances y ajustar la enseñanza según su ritmo.",
+            "C": "Ignorar los progresos individuales.",
+            "D": "Eliminar la participación del niño en el proceso."
+          }
+        },
+        {
+          "numero": 27,
+          "pregunta": "La higiene escolar es importante porque:",
+          "opciones": {
+            "A": "Solo se limita a la limpieza de los salones.",
+            "B": "Contribuye a crear un ambiente saludable que favorece el desarrollo integral.",
+            "C": "Es responsabilidad exclusiva de los padres.",
+            "D": "No afecta el aprendizaje."
+          }
+        },
+        {
+          "numero": 28,
+          "pregunta": "La función del acicalado tras el baño del bebé es:",
+          "opciones": {
+            "A": "Solo secar al bebé rápidamente sin cuidados adicionales.",
+            "B": "Cuidar zonas específicas como el cabello, ojos y oídos para evitar irritaciones.",
+            "C": "Reducir el tiempo de contacto con el adulto.",
+            "D": "Sustituir la necesidad de bañarlo."
+          }
+        },
+        {
+          "numero": 29,
+          "pregunta": "La colaboración entre familia y escuela en la enseñanza de hábitos y higiene se fundamenta en:",
+          "opciones": {
+            "A": "La transmisión de información unidireccional desde la escuela.",
+            "B": "El diálogo y el trabajo conjunto para reforzar los aprendizajes en ambos entornos.",
+            "C": "La desconexión de los cuidados en el hogar.",
+            "D": "La imposición de normas sin flexibilidad."
+          }
+        },
+        {
+          "numero": 30,
+          "pregunta": "La integración de contenidos sobre hábitos, autonomía e higiene tiene como objetivo principal:",
+          "opciones": {
+            "A": "Fomentar la dependencia del adulto en todas las actividades.",
+            "B": "Promover el desarrollo integral del niño mediante la adquisición de conductas autónomas y saludables.",
+            "C": "Limitar el aprendizaje a la teoría sin práctica.",
+            "D": "Centrar la enseñanza exclusivamente en el aspecto académico."
+          }
+        }
+      ],
+      "respuestas_correctas": {
+        "1": "B",
+        "2": "B",
+        "3": "B",
+        "4": "B",
+        "5": "B",
+        "6": "B",
+        "7": "B",
+        "8": "B",
+        "9": "B",
+        "10": "B",
+        "11": "B",
+        "12": "B",
+        "13": "B",
+        "14": "B",
+        "15": "B",
+        "16": "B",
+        "17": "B",
+        "18": "B",
+        "19": "B",
+        "20": "B",
+        "21": "B",
+        "22": "B",
+        "23": "A",
+        "24": "A",
+        "25": "B",
+        "26": "A",
+        "27": "B",
+        "28": "B",
+        "29": "B",
+        "30": "B"
+      }
+    },
+    {
+      "titulo": "Examen 3",
+      "instrucciones": "Responde cada pregunta seleccionando la opción (A, B, C o D) que consideres correcta.",
+      "preguntas": [
+        {
+          "numero": 1,
+          "pregunta": "La autonomía personal se define como:",
+          "opciones": {
+            "A": "La capacidad de realizar actividades sin reflexión.",
+            "B": "La capacidad de resolver situaciones cotidianas sin ayuda de otras personas.",
+            "C": "La repetición mecánica de conductas.",
+            "D": "La imitación de las acciones de otros sin adaptación."
+          }
+        },
+        {
+          "numero": 2,
+          "pregunta": "Según el proceso de adquisición de hábitos, ¿cuál es la secuencia correcta de fases?",
+          "opciones": {
+            "A": "Automatización, preparación, consolidación, aprendizaje.",
+            "B": "Preparación, aprendizaje, automatización, consolidación.",
+            "C": "Aprendizaje, consolidación, preparación, automatización.",
+            "D": "Consolidación, automatización, aprendizaje, preparación."
+          }
+        },
+        {
+          "numero": 3,
+          "pregunta": "Una destreza en la realización de tareas se relaciona con el concepto de:",
+          "opciones": {
+            "A": "Hábito.",
+            "B": "Habilidad.",
+            "C": "Rutina.",
+            "D": "Autoridad."
+          }
+        },
+        {
+          "numero": 4,
+          "pregunta": "El aprendizaje de hábitos se fundamenta en la repetición sistemática de acciones, lo que se conoce como:",
+          "opciones": {
+            "A": "Planificación.",
+            "B": "Evaluación.",
+            "C": "Rutina.",
+            "D": "Imaginación."
+          }
+        },
+        {
+          "numero": 5,
+          "pregunta": "El establecimiento de relaciones afectivas durante el proceso de enseñanza es:",
+          "opciones": {
+            "A": "Opcional para el aprendizaje de hábitos.",
+            "B": "Fundamental para brindar seguridad y confianza al niño.",
+            "C": "Irrelevante para la adquisición de autonomía.",
+            "D": "Contraproducente en ambientes estructurados."
+          }
+        },
+        {
+          "numero": 6,
+          "pregunta": "Una de las características de un hábito es su:",
+          "opciones": {
+            "A": "Constancia en la respuesta a situaciones y su flexibilidad para adaptarse a cada caso.",
+            "B": "Rigidez absoluta sin adaptación.",
+            "C": "Exclusiva dependencia de la supervisión externa.",
+            "D": "Variabilidad sin patrón definido."
+          }
+        },
+        {
+          "numero": 7,
+          "pregunta": "El rol del adulto en la enseñanza de hábitos implica:",
+          "opciones": {
+            "A": "Solamente supervisar sin intervenir.",
+            "B": "Guiar, acompañar y apoyar al niño en la realización de las tareas.",
+            "C": "Permitir que el niño aprenda sin ninguna dirección.",
+            "D": "Imponer normas sin explicación."
+          }
+        },
+        {
+          "numero": 8,
+          "pregunta": "La selección de estrategias metodológicas en la programación de hábitos debe tener en cuenta:",
+          "opciones": {
+            "A": "Los intereses y el ritmo individual de cada niño.",
+            "B": "Únicamente el contenido académico sin considerar las diferencias individuales.",
+            "C": "La exclusión de actividades lúdicas.",
+            "D": "La repetición sin ajustes metodológicos."
+          }
+        },
+        {
+          "numero": 9,
+          "pregunta": "En el ámbito de la higiene infantil, “higiene personal” comprende:",
+          "opciones": {
+            "A": "Solo el aseo del entorno.",
+            "B": "El cuidado del cuerpo, incluyendo piel, cabello, uñas y zonas sensibles.",
+            "C": "Únicamente el uso de productos desinfectantes.",
+            "D": "La enseñanza exclusiva de normas teóricas."
+          }
+        },
+        {
+          "numero": 10,
+          "pregunta": "La importancia de la higiene ambiental radica en:",
+          "opciones": {
+            "A": "Solo en mantener limpio el aula.",
+            "B": "En crear un entorno saludable que favorezca el desarrollo integral del niño.",
+            "C": "En la decoración del espacio escolar.",
+            "D": "En la aplicación de normas sin consideración del entorno."
+          }
+        },
+        {
+          "numero": 11,
+          "pregunta": "El cuidado del cordón umbilical es esencial para:",
+          "opciones": {
+            "A": "Prevenir infecciones en el área umbilical durante el proceso de cicatrización.",
+            "B": "Reducir la dependencia del adulto.",
+            "C": "Acelerar la autonomía del bebé en el baño.",
+            "D": "Mejorar la motricidad fina del recién nacido."
+          }
+        },
+        {
+          "numero": 12,
+          "pregunta": "La frecuencia recomendada para bañar al bebé es:",
+          "opciones": {
+            "A": "Una vez a la semana.",
+            "B": "Diariamente, manteniendo un ambiente adecuado y seguro.",
+            "C": "Solo cuando se vea sucio.",
+            "D": "Sin establecer un patrón, de forma aleatoria."
+          }
+        },
+        {
+          "numero": 13,
+          "pregunta": "Una esponja natural en el baño del bebé se utiliza porque:",
+          "opciones": {
+            "A": "Es menos efectiva que una esponja sintética.",
+            "B": "Es suave y adecuada para la delicada piel del bebé.",
+            "C": "Es más económica sin importar la calidad.",
+            "D": "No requiere ser reemplazada regularmente."
+          }
+        },
+        {
+          "numero": 14,
+          "pregunta": "El proceso de evaluación en la adquisición de hábitos debe realizarse:",
+          "opciones": {
+            "A": "Únicamente al final del proceso.",
+            "B": "De forma continua y sistemática, evaluando tanto el progreso individual como los criterios establecidos.",
+            "C": "Sin involucrar a la familia.",
+            "D": "Basándose únicamente en resultados cuantitativos."
+          }
+        },
+        {
+          "numero": 15,
+          "pregunta": "El control de la cantidad y calidad de los alimentos ingeridos es un objetivo del aprendizaje de:",
+          "opciones": {
+            "A": "Habilidades de ejecución motriz.",
+            "B": "Hábitos alimenticios.",
+            "C": "Habilidades cognitivas.",
+            "D": "Higiene ambiental."
+          }
+        },
+        {
+          "numero": 16,
+          "pregunta": "La “motivación afectiva” en la adquisición de hábitos se relaciona con:",
+          "opciones": {
+            "A": "La imposición sin consideración emocional.",
+            "B": "La creación de un ambiente seguro y de confianza que impulse el aprendizaje.",
+            "C": "La exclusión del diálogo.",
+            "D": "La aplicación de castigos ante errores."
+          }
+        },
+        {
+          "numero": 17,
+          "pregunta": "La coordinación entre habilidades de ejecución y planificación ayuda a:",
+          "opciones": {
+            "A": "Complicar el proceso de aprendizaje.",
+            "B": "Descomponer la tarea en pasos simples y facilitar su aprendizaje.",
+            "C": "Aumentar la dificultad de la actividad.",
+            "D": "Evitar la participación activa del niño."
+          }
+        },
+        {
+          "numero": 18,
+          "pregunta": "La toalla y los juguetes de goma en el baño se recomiendan porque:",
+          "opciones": {
+            "A": "Pueden causar irritación en la piel.",
+            "B": "Contribuyen a la comodidad y seguridad del bebé durante el proceso.",
+            "C": "Son innecesarios para el bienestar del bebé.",
+            "D": "No tienen función en el proceso higiénico."
+          }
+        },
+        {
+          "numero": 19,
+          "pregunta": "La “evaluación de la programación” permite:",
+          "opciones": {
+            "A": "Ignorar las necesidades individuales.",
+            "B": "Ajustar y mejorar el proceso de enseñanza-aprendizaje de los hábitos.",
+            "C": "Establecer un único método sin retroalimentación.",
+            "D": "Reemplazar la evaluación del desempeño del niño."
+          }
+        },
+        {
+          "numero": 20,
+          "pregunta": "El acicalado tras el baño es importante para:",
+          "opciones": {
+            "A": "Solo secar al bebé rápidamente.",
+            "B": "Cuidar áreas específicas como el cabello y las uñas, evitando irritaciones y promoviendo una buena imagen corporal.",
+            "C": "Reducir el tiempo del proceso higiénico.",
+            "D": "Evitar la interacción con el adulto."
+          }
+        },
+        {
+          "numero": 21,
+          "pregunta": "La función del termómetro sumergible durante el baño es:",
+          "opciones": {
+            "A": "Medir la duración del baño.",
+            "B": "Verificar la temperatura exacta del agua y asegurar la seguridad del bebé.",
+            "C": "Sustituir la supervisión directa del adulto.",
+            "D": "Controlar la temperatura ambiente de la habitación."
+          }
+        },
+        {
+          "numero": 22,
+          "pregunta": "El uso de estrategias positivas en la promoción de la salud se basa en:",
+          "opciones": {
+            "A": "Enfatizar los beneficios de los hábitos saludables.",
+            "B": "Resaltar únicamente las consecuencias negativas de las conductas perjudiciales.",
+            "C": "Evitar el refuerzo positivo.",
+            "D": "Impedir la participación activa del niño."
+          }
+        },
+        {
+          "numero": 23,
+          "pregunta": "La higiene mental, dentro de la higiene general, tiene como finalidad:",
+          "opciones": {
+            "A": "Mejorar solo la apariencia externa.",
+            "B": "Facilitar la adaptación social y el desarrollo pleno del individuo.",
+            "C": "Reducir la interacción social en el aula.",
+            "D": "Limitar el aprendizaje a aspectos físicos."
+          }
+        },
+        {
+          "numero": 24,
+          "pregunta": "La “preparación” en el proceso de adquisición de hábitos incluye:",
+          "opciones": {
+            "A": "Evaluar únicamente al final del proceso.",
+            "B": "Motivar al niño y asegurarse de que posee las destrezas previas necesarias.",
+            "C": "Iniciar la actividad sin planificación previa.",
+            "D": "Eliminar la necesidad de supervisión adulta."
+          }
+        },
+        {
+          "numero": 25,
+          "pregunta": "El establecimiento de normas constantes en la enseñanza de hábitos es fundamental para:",
+          "opciones": {
+            "A": "Generar inseguridad en el niño.",
+            "B": "Proporcionar estabilidad y seguridad en el proceso de aprendizaje.",
+            "C": "Restringir la creatividad del niño.",
+            "D": "Limitar la interacción con el entorno."
+          }
+        },
+        {
+          "numero": 26,
+          "pregunta": "La higiene ambiental se relaciona con:",
+          "opciones": {
+            "A": "La limpieza personal exclusivamente.",
+            "B": "El control de factores externos como el clima, la vivienda y el centro educativo.",
+            "C": "Únicamente el mantenimiento de áreas verdes.",
+            "D": "La decoración del espacio sin impacto en la salud."
+          }
+        },
+        {
+          "numero": 27,
+          "pregunta": "El control de la alimentación en la infancia se enseña mediante:",
+          "opciones": {
+            "A": "La imposición de normas sin explicación.",
+            "B": "La enseñanza de conductas en la mesa, uso de cubiertos y el control de porciones.",
+            "C": "La ausencia de supervisión durante las comidas.",
+            "D": "La memorización de recetas sin práctica."
+          }
+        },
+        {
+          "numero": 28,
+          "pregunta": "La “consolidación” en el aprendizaje de hábitos implica:",
+          "opciones": {
+            "A": "La dependencia continua del adulto.",
+            "B": "La integración generalizada de la conducta en el repertorio del niño con autonomía.",
+            "C": "La repetición esporádica de la acción.",
+            "D": "La aplicación exclusiva de normas sin práctica."
+          }
+        },
+        {
+          "numero": 29,
+          "pregunta": "La participación activa del niño en el proceso de aprendizaje se favorece mediante:",
+          "opciones": {
+            "A": "La exclusión de actividades lúdicas.",
+            "B": "El trabajo colaborativo entre familia y escuela, adaptado al ritmo individual.",
+            "C": "La imposición de un único método.",
+            "D": "La supervisión sin intervención directa."
+          }
+        },
+        {
+          "numero": 30,
+          "pregunta": "Integrar contenidos de autonomía, adquisición de hábitos e higiene busca:",
+          "opciones": {
+            "A": "Fomentar la dependencia en el adulto.",
+            "B": "Propiciar el desarrollo integral y autónomo del niño mediante hábitos saludables.",
+            "C": "Limitar el aprendizaje a un solo aspecto del desarrollo.",
+            "D": "Separar las áreas de higiene y autonomía sin conexión entre ellas."
+          }
+        }
+      ],
+      "respuestas_correctas": {
+        "1": "B",
+        "2": "B",
+        "3": "B",
+        "4": "C",
+        "5": "B",
+        "6": "A",
+        "7": "B",
+        "8": "A",
+        "9": "B",
+        "10": "B",
+        "11": "A",
+        "12": "B",
+        "13": "B",
+        "14": "B",
+        "15": "B",
+        "16": "B",
+        "17": "B",
+        "18": "B",
+        "19": "B",
+        "20": "B",
+        "21": "B",
+        "22": "A",
+        "23": "B",
+        "24": "B",
+        "25": "B",
+        "26": "B",
+        "27": "B",
+        "28": "B",
+        "29": "B",
+        "30": "B"
+      }
+    }
+  ],
+  "banco_explicaciones": {
+    "Examen 1": {
+      "1": "Según M.J. Comellas (tema5 Autonoimia.txt), el hábito es “una conducta aprendida que se ejecuta en el momento oportuno, de forma adecuada y sin necesidad de control externo”.",
+      "2": "La diferencia radica en que la habilidad implica la calidad de la ejecución, mientras que el hábito es la aplicación certera de esa habilidad de forma automática (tema5 Autonoimia.txt).",
+      "3": "La rutina es la repetición sistemática de acciones con un propósito educativo (tema5 Autonoimia.txt).",
+      "4": "La autonomía personal es la meta final del proceso, permitiendo al individuo resolver situaciones cotidianas sin ayuda (tema5 Autonoimia.txt).",
+      "5": "Aunque la evaluación es continua, la fase de “evaluación final” no se establece como una fase propiamente dentro del proceso; se consideran preparación, aprendizaje, automatización y consolidación (tema5 Autonoimia.txt).",
+      "6": "Las habilidades de planificación implican descomponer la actividad en pasos para facilitar el aprendizaje (tema5 Autonoimia.txt).",
+      "7": "La autoridad, junto con relaciones afectivas y constancia, es requisito esencial en la adquisición de hábitos (tema5 Autonoimia.txt).",
+      "8": "La evaluación debe considerar el progreso individual y la comparación con criterios previamente establecidos (tema5 Autonoimia.txt).",
+      "9": "La programación debe alternar el aprendizaje con actividades lúdicas y adaptarse a los ritmos de cada niño (tema5 Autonoimia.txt).",
+      "10": "En el aprendizaje de hábitos alimenticios se enseña, de acuerdo con la etapa evolutiva, el uso adecuado de cubiertos y la conducta en la mesa (tema5 Autonoimia.txt).",
+      "11": "Se recomiendan estrategias que promuevan la conciencia y la prevención en hábitos saludables (tema5 Autonoimia.txt y Tema4Autonomia.docx).",
+      "12": "La higiene infantil tiene efectos en el bienestar integral, abarcando lo físico, psíquico y social (Tema4Autonomia.docx).",
+      "13": "El cuidado personal en la higiene infantil incluye la limpieza de la piel, cabello, uñas y zonas sensibles (Tema4Autonomia.docx).",
+      "14": "La higiene ambiental abarca el entorno del niño, incluyendo el centro educativo y el hogar (Tema4Autonomia.docx).",
+      "15": "El cuidado del cordón umbilical es esencial para evitar infecciones durante el periodo de cicatrización (Tema4Autonomia.docx).",
+      "16": "La temperatura recomendada para el agua es entre 32ºC y 35ºC, sin superar 37ºC (Tema4Autonomia.docx).",
+      "17": "Un ambiente de baño adecuado requiere una temperatura ambiente entre 20ºC y 24ºC (Tema4Autonomia.docx).",
+      "18": "Los materiales esenciales incluyen jabón de pH neutro, esponja natural y toallas de algodón (Tema4Autonomia.docx).",
+      "19": "El baño favorece tanto la higiene como el vínculo afectivo y la relajación del bebé (Tema4Autonomia.docx).",
+      "20": "La consolidación se alcanza cuando la conducta se integra en el repertorio del niño de forma autónoma (tema5 Autonoimia.txt).",
+      "21": "La automatización se refiere a que, tras la repetición, la conducta se realiza sin supervisión (tema5 Autonoimia.txt).",
+      "22": "La pauta de observación se utiliza para registrar logros de manera individual o grupal (tema5 Autonoimia.txt).",
+      "23": "La colaboración entre familia y escuela es fundamental para reforzar los hábitos alimenticios (tema5 Autonoimia.txt).",
+      "24": "La habilidad de ejecución se relaciona con la realización de movimientos y conductas motoras básicas (tema5 Autonoimia.txt).",
+      "25": "La autoridad debe ejercerse de forma adecuada, aportando estabilidad sin imponer de manera autoritaria (tema5 Autonoimia.txt).",
+      "26": "La higiene ambiental implica factores del entorno, tal como se aborda en Tema4Autonomia.docx.",
+      "27": "El primer paso es definir los objetivos de la intervención educativa (tema5 Autonoimia.txt).",
+      "28": "La higiene mental se orienta a la adaptación social y el desarrollo pleno del individuo (Tema4Autonomia.docx).",
+      "29": "La autoevaluación ayuda al niño a reconocer sus avances y ajustarse según su propio desarrollo (tema5 Autonoimia.txt).",
+      "30": "La integración de estos contenidos busca promover el desarrollo integral del niño, combinando autonomía, hábitos saludables y buena higiene (integración de temas en tema5 Autonoimia.txt y Tema4Autonomia.docx)."
+    },
+    "Examen 2": {
+      "1": "La autonomía se define como la capacidad para resolver situaciones sin ayuda externa (tema5 Autonoimia.txt).",
+      "2": "La repetición sistemática de la conducta permite que se realice de forma automática (tema5 Autonoimia.txt).",
+      "3": "La habilidad se refiere a la capacidad de ejecución con calidad, mientras que el hábito es su aplicación (tema5 Autonoimia.txt).",
+      "4": "La rutina es la repetición sistemática con un fin educativo (tema5 Autonoimia.txt).",
+      "5": "La preparación consiste en verificar que el niño posee las destrezas necesarias para iniciar el aprendizaje (tema5 Autonoimia.txt).",
+      "6": "Automatización implica la ejecución sin supervisión (tema5 Autonoimia.txt).",
+      "7": "La relación afectiva es fundamental para generar un ambiente de confianza (tema5 Autonoimia.txt).",
+      "8": "La colaboración familiar refuerza el aprendizaje en ambos entornos (tema5 Autonoimia.txt).",
+      "9": "Alternar actividades lúdicas permite respetar el ritmo individual (tema5 Autonoimia.txt).",
+      "10": "En el Primer Ciclo se enseña a comer sentado y con ciertos usos de cubiertos (tema5 Autonoimia.txt).",
+      "11": "La higiene infantil favorece el bienestar integral (Tema4Autonomia.docx).",
+      "12": "El baño diario se recomienda para mantener la higiene y fortalecer el vínculo afectivo (Tema4Autonomia.docx).",
+      "13": "El cuidado del cordón umbilical previene infecciones (Tema4Autonomia.docx).",
+      "14": "La higiene ambiental abarca la calidad del entorno tanto en casa como en la escuela (Tema4Autonomia.docx).",
+      "15": "La temperatura del agua recomendada es entre 32ºC y 35ºC (Tema4Autonomia.docx).",
+      "16": "Una toalla de algodón es ideal por su suavidad (Tema4Autonomia.docx).",
+      "17": "El referente individualizado evalúa el progreso del niño en relación a su propio desarrollo (tema5 Autonoimia.txt).",
+      "18": "La evaluación de la programación permite ajustar el proceso (tema5 Autonoimia.txt).",
+      "19": "La higiene mental favorece la adaptación social y el desarrollo integral (Tema4Autonomia.docx).",
+      "20": "La secuencia correcta de fases es preparación, aprendizaje, automatización y consolidación (tema5 Autonoimia.txt).",
+      "21": "Las habilidades de ejecución y planificación permiten simplificar la tarea (tema5 Autonoimia.txt).",
+      "22": "El termómetro sumergible se usa para verificar la temperatura exacta del agua (Tema4Autonomia.docx).",
+      "23": "Las estrategias positivas resaltan los beneficios de adoptar hábitos saludables (Tema4Autonomia.docx).",
+      "24": "La preparación del ambiente para el baño implica caldear la habitación y evitar corrientes (Tema4Autonomia.docx).",
+      "25": "La consolidación se alcanza cuando el niño integra la conducta de forma autónoma (tema5 Autonoimia.txt).",
+      "26": "La toalla y los juguetes contribuyen a la comodidad y seguridad durante el baño (Tema4Autonomia.docx).",
+      "27": "La evaluación de la programación permite ajustar la enseñanza en función del avance del niño (tema5 Autonoimia.txt).",
+      "28": "El acicalado tras el baño cuida zonas específicas y promueve una buena imagen corporal (Tema4Autonomia.docx).",
+      "29": "La participación activa del niño se favorece con la colaboración entre familia y escuela (tema5 Autonoimia.txt).",
+      "30": "La integración de estos contenidos tiene como fin promover el desarrollo integral y autónomo del niño (integración de contenidos en tema5 Autonoimia.txt y Tema4Autonomia.docx)."
+    },
+    "Examen 3": {
+      "1": "La autonomía es la capacidad de resolver situaciones cotidianas sin ayuda (tema5 Autonoimia.txt).",
+      "2": "La secuencia correcta de fases es preparación, aprendizaje, automatización y consolidación (tema5 Autonoimia.txt).",
+      "3": "La habilidad se refiere a la destreza o capacidad para ejecutar una acción (tema5 Autonoimia.txt).",
+      "4": "La rutina es la repetición sistemática de acciones con un fin educativo (tema5 Autonoimia.txt).",
+      "5": "La preparación implica motivar al niño y asegurarse de que posee las destrezas necesarias (tema5 Autonoimia.txt).",
+      "6": "Un hábito se caracteriza por su constancia en la respuesta y flexibilidad para adaptarse (tema5 Autonoimia.txt).",
+      "7": "El rol del adulto es guiar, acompañar y apoyar el proceso de aprendizaje (tema5 Autonoimia.txt).",
+      "8": "La selección de estrategias debe considerar los intereses y ritmo individual (tema5 Autonoimia.txt).",
+      "9": "La higiene personal abarca el cuidado integral del cuerpo (Tema4Autonomia.docx).",
+      "10": "La higiene ambiental busca crear un entorno saludable (Tema4Autonomia.docx).",
+      "11": "El cuidado del cordón umbilical es esencial para prevenir infecciones (Tema4Autonomia.docx).",
+      "12": "Se recomienda bañar al bebé diariamente manteniendo condiciones seguras (Tema4Autonomia.docx).",
+      "13": "La esponja natural es adecuada para la delicada piel del bebé (Tema4Autonomia.docx).",
+      "14": "La evaluación debe ser continua y tener en cuenta tanto el progreso individual como los criterios establecidos (tema5 Autonoimia.txt).",
+      "15": "El control de la alimentación se enseña mediante la correcta conducta en la mesa, el uso de cubiertos y el control de porciones (tema5 Autonoimia.txt).",
+      "16": "La motivación afectiva se basa en crear un ambiente de seguridad y confianza (tema5 Autonoimia.txt).",
+      "17": "La coordinación entre habilidades de ejecución y planificación facilita la descomposición de la tarea (tema5 Autonoimia.txt).",
+      "18": "La toalla y los juguetes contribuyen a la comodidad y seguridad durante el baño (Tema4Autonomia.docx).",
+      "19": "La evaluación de la programación permite ajustar el proceso de enseñanza (tema5 Autonoimia.txt).",
+      "20": "El acicalado después del baño es esencial para el cuidado específico del bebé (Tema4Autonomia.docx).",
+      "21": "El termómetro sumergible se utiliza para confirmar que la temperatura del agua es adecuada (Tema4Autonomia.docx).",
+      "22": "Las estrategias positivas resaltan los beneficios de adoptar hábitos saludables (Tema4Autonomia.docx).",
+      "23": "La higiene mental, componente de la higiene general, facilita la adaptación social (Tema4Autonomia.docx).",
+      "24": "La preparación incluye motivar al niño y confirmar que posee las destrezas necesarias (tema5 Autonoimia.txt).",
+      "25": "El establecimiento de normas constantes ayuda a proporcionar estabilidad y seguridad (tema5 Autonoimia.txt).",
+      "26": "La higiene ambiental se relaciona con el control de factores externos del entorno (Tema4Autonomia.docx).",
+      "27": "El control de la alimentación se enseña a través de la correcta conducta en la mesa y el uso de cubiertos (tema5 Autonoimia.txt).",
+      "28": "La consolidación implica que la conducta se integra de forma autónoma en el repertorio del niño (tema5 Autonoimia.txt).",
+      "29": "La participación activa se fomenta mediante el trabajo colaborativo entre familia y escuela (tema5 Autonoimia.txt).",
+      "30": "La integración de contenidos sobre hábitos, autonomía e higiene tiene como objetivo el desarrollo integral y autónomo del niño (integración de los tres documentos)."
+    }
+  }
+}
