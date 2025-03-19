@@ -1,77 +1,119 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Examen Interactivo</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        .pregunta { margin-bottom: 20px; }
-        .opciones { margin-top: 20px; font-weight: bold; }
-        .correcta { color: green; }
-        .incorrecta { color: red; }
-    </style>
+  <meta charset="UTF-8">
+  <title>Examen Interactivo</title>
+  <style>
+    /* Estilos básicos */
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .pregunta { margin-bottom: 20px; }
+    .resultado { margin-top: 20px; font-weight: bold; }
+    .correcta { color: green; }
+    .incorrecta { color: red; }
+  </style>
 </head>
 <body>
-    <h1>Examen Interactivo</h1>
-    <div id="contenido"></div>
-    <button onclick="enviarRespuestas()">Enviar Respuestas</button>
-    <div id="resultado" class="resultado"></div>
+  <h1>Examen Interactivo</h1>
+  <!-- Aquí se mostrará la lista de exámenes -->
+  <div id="examenSeleccion"></div>
+  <!-- Aquí se mostrará el contenido del examen -->
+  <div id="contenidoExamen" style="display:none;"></div>
+  <!-- Aquí se mostrarán los resultados -->
+  <div id="resultado"></div>
 
-    <script>
-        let preguntas = [];
+  <script>
+    // Paso 1: Carga el archivo examen.json desde GitHub
+    // Usamos la URL RAW para acceder al archivo en GitHub:
+    const urlExamen = 'https://raw.githubusercontent.com/DigitaAvampace/Examenweb/main/examen.json';
 
-        // Cargar el archivo JSON desde GitHub
-        fetch('https://github.com/DigitaAvampace/Examenweb/blob/main/examen.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('No se pudo cargar el archivo JSON. Verifica la URL.');
-                }
-                return response.json();
-            })
-            .then(data => {
-                preguntas = data.preguntas;
-                mostrarPreguntas();
-            })
-            .catch(error => {
-                document.getElementById('contenido').innerText = 'Error al cargar el examen: ' + error.message;
-            });
+    let examenesData = null;  // Aquí guardaremos el JSON completo
+    let examenActual = null;  // El examen que se mostrará
 
-        function mostrarPreguntas() {
-            const contenido = document.getElementById('contenido');
-            contenido.innerHTML = '';
-            preguntas.forEach((pregunta, index) => {
-                const divPregunta = document.createElement('div');
-                divPregunta.className = 'pregunta';
-                divPregunta.innerHTML = `
-                    <p>${index + 1}. ${pregunta.pregunta}</p>
-                    ${pregunta.opciones.map((opcion, i) => `
-                        <label>
-                            <input type="radio" name="pregunta${index}" value="${i}">
-                            ${opcion}
-                        </label><br>
-                    `).join('')}
-                `;
-                contenido.appendChild(divPregunta);
-            });
+    // Carga el JSON con fetch
+    fetch(urlExamen)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('No se pudo cargar el JSON. ¡Ojo! Revisa la URL.');
         }
+        return response.json();
+      })
+      .then(data => {
+        // Asegúrate de que tu JSON tenga la propiedad "examenes"
+        examenesData = data.examenes;
+        mostrarListadoExamenes();
+      })
+      .catch(error => {
+        document.body.innerHTML = '<p>Error al cargar el examen: ' + error.message + '</p>';
+      });
 
-        function enviarRespuestas() {
-            let puntaje = 0;
-            preguntas.forEach((pregunta, index) => {
-                const opciones = document.getElementsByName(`pregunta${index}`);
-                opciones.forEach(opcion => {
-                    if (opcion.checked) {
-                        if (parseInt(opcion.value) === pregunta.respuesta_correcta) {
-                            puntaje++;
-                            opcion.parentElement.className = 'correcta';
-                        } else {
-                            opcion.parentElement.className = 'incorrecta';
-                        }
-                    }
-                });
-            });
-            document.getElementById('resultado').innerText = `Obtuviste ${puntaje} de ${preguntas.length} respuestas correctas.`;
+    // Paso 2: Muestra la lista de exámenes para que el usuario elija
+    function mostrarListadoExamenes() {
+      const div = document.getElementById('examenSeleccion');
+      div.innerHTML = '<h2>Elige el examen:</h2>';
+      examenesData.forEach((examen, index) => {
+        const btn = document.createElement('button');
+        btn.innerText = examen.titulo;
+        btn.onclick = () => cargarExamen(index);
+        div.appendChild(btn);
+        div.appendChild(document.createElement('br'));
+      });
+    }
+
+    // Paso 3: Al hacer clic en un examen, se carga y muestra el test
+    function cargarExamen(indice) {
+      examenActual = examenesData[indice];
+      document.getElementById('examenSeleccion').style.display = 'none';
+      const divContenido = document.getElementById('contenidoExamen');
+      divContenido.style.display = 'block';
+      let html = `<h2>${examenActual.titulo}</h2>`;
+      html += `<p>${examenActual.instrucciones}</p>`;
+      // Recorremos cada pregunta del examen
+      examenActual.preguntas.forEach((pregunta, i) => {
+        html += `<div class="pregunta">
+                   <p><strong>Pregunta ${pregunta.numero}:</strong> ${pregunta.pregunta}</p>`;
+        // Mostramos cada opción (se espera que sean A, B, C y D)
+        for (const [clave, opcion] of Object.entries(pregunta.opciones)) {
+          html += `<label>
+                     <input type="radio" name="pregunta${i}" value="${clave}" required>
+                     ${clave}) ${opcion}
+                   </label><br>`;
         }
-    </script>
+        html += `</div>`;
+      });
+      html += `<button onclick="enviarRespuestas()">Enviar Respuestas</button>`;
+      divContenido.innerHTML = html;
+    }
+
+    // Paso 4: Procesa las respuestas y muestra el puntaje y detalles
+    function enviarRespuestas() {
+      let puntaje = 0;
+      let total = examenActual.preguntas.length;
+      let detalles = '';
+      examenActual.preguntas.forEach((pregunta, i) => {
+        const radios = document.getElementsByName(`pregunta${i}`);
+        let respuestaUsuario = null;
+        radios.forEach(radio => {
+          if (radio.checked) {
+            respuestaUsuario = radio.value;
+          }
+        });
+        // Se asume que el JSON tiene "respuestas_correctas" como un objeto (clave: número de pregunta)
+        const respuestaCorrecta = examenActual.respuestas_correctas[String(pregunta.numero)];
+        if (respuestaUsuario === respuestaCorrecta) {
+          puntaje++;
+          detalles += `<p>Pregunta ${pregunta.numero}: <span class="correcta">Correcto</span></p>`;
+        } else {
+          detalles += `<p>Pregunta ${pregunta.numero}: <span class="incorrecta">Incorrecto</span> (Tu respuesta: ${respuestaUsuario || 'Ninguna'} - Correcta: ${respuestaCorrecta})</p>`;
+        }
+      });
+      const divResultado = document.getElementById('resultado');
+      divResultado.innerHTML = `<h2>Resultado</h2>
+                                <p>Puntaje: ${puntaje} de ${total}</p>
+                                ${detalles}
+                                <button onclick="location.reload()">Reiniciar Examen</button>`;
+      // Oculta el contenido del examen
+      document.getElementById('contenidoExamen').style.display = 'none';
+    }
+  </script>
 </body>
 </html>
