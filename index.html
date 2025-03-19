@@ -21,7 +21,7 @@
         let preguntas = [];
 
         // Cargar el archivo JSON desde GitHub
-        fetch('https://raw.githubusercontent.com/DigitaAvampace/Examenweb/main/examen.json')
+        fetch('https://github.com/DigitaAvampace/Examenweb/blob/main/examen.json')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('No se pudo cargar el archivo JSON. Verifica la URL.');
