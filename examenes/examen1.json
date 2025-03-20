@@ -1,1 +1,371 @@
+{
+  "titulo": "Examen Integrado de Psicomotricidad - Versión 1",
+  "instrucciones": "Responda las 30 preguntas de opción múltiple. Cada pregunta presenta cuatro alternativas (a, b, c, d). Justifique su respuesta utilizando los conceptos históricos, teóricos y metodológicos de la psicomotricidad, integrando aportes de Dupré, Wallon, Lapierre, Ajurriaguerra y otros. Se evaluará la capacidad analítica, la integración de conocimientos y la reflexión crítica.",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Cuál es la definición más completa de psicomotricidad en el contexto educativo?",
+      "opciones": {
+        "a": "Una disciplina centrada únicamente en el movimiento físico.",
+        "b": "Una técnica que integra la actividad corporal y la expresión simbólica para favorecer la comunicación con el entorno.",
+        "c": "Un método terapéutico exclusivo para niños con alteraciones motoras.",
+        "d": "Una práctica educativa basada en rutinas fijas sin implicación emocional."
+      }
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿En qué año y país surge por primera vez el término 'psicomotricidad'?",
+      "opciones": {
+        "a": "1903 en Francia.",
+        "b": "1925 en España.",
+        "c": "1950 en Italia.",
+        "d": "1930 en Alemania."
+      }
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Cuál fue la principal aportación de Dupré a la psicomotricidad?",
+      "opciones": {
+        "a": "La aplicación de ejercicios estructurados para mejorar el equilibrio.",
+        "b": "La identificación de la relación entre déficit motriz y alteraciones psíquicas.",
+        "c": "El fomento del juego libre como método de intervención.",
+        "d": "El desarrollo de técnicas de relajación corporal."
+      }
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Qué aportación realizó Wallon en el desarrollo de la psicomotricidad?",
+      "opciones": {
+        "a": "Integrar las funciones motrices y psíquicas en una unidad de desarrollo.",
+        "b": "Establecer la separación estricta entre lo motriz y lo afectivo.",
+        "c": "Introducir el concepto de reeducación psicomotora exclusivamente.",
+        "d": "Fomentar la intervención exclusivamente a través de la actividad lúdica."
+      }
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Cuál es la diferencia fundamental entre la psicomotricidad instrumental y la relacional?",
+      "opciones": {
+        "a": "La instrumental se basa en ejercicios estructurados; la relacional en el juego libre y espontáneo.",
+        "b": "La instrumental se centra en la expresión simbólica; la relacional en la técnica motriz.",
+        "c": "La instrumental es aplicable solo a niños con dificultades; la relacional a todos los niños.",
+        "d": "No existe diferencia, son dos nombres para el mismo enfoque."
+      }
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Quién es el principal defensor de la psicomotricidad relacional?",
+      "opciones": {
+        "a": "Henry Vayer.",
+        "b": "André Lapierre.",
+        "c": "Dupré.",
+        "d": "Wallon."
+      }
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué técnica introdujo Ajurriaguerra en el campo de la psicomotricidad?",
+      "opciones": {
+        "a": "La reeducación psicomotora basada en la relajación corporal.",
+        "b": "El uso exclusivo de ejercicios de coordinación.",
+        "c": "La implementación de juegos estructurados.",
+        "d": "La integración de la expresión verbal en la actividad motriz."
+      }
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Cuál es el papel del educador en una intervención psicomotriz directa?",
+      "opciones": {
+        "a": "Imponer un programa rígido sin adaptaciones.",
+        "b": "Adoptar un rol pasivo y observar sin intervenir.",
+        "c": "Guiar y adaptar la intervención a las necesidades individuales de cada niño.",
+        "d": "Limitar la actividad a la repetición de movimientos sin retroalimentación."
+      }
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Por qué es crucial el desarrollo del esquema corporal en la infancia?",
+      "opciones": {
+        "a": "Porque solo influye en el aspecto físico.",
+        "b": "Porque es irrelevante en el aprendizaje emocional.",
+        "c": "Porque es fundamental para la integración de la experiencia sensoriomotriz y la formación de la identidad.",
+        "d": "Porque se centra en la memorización de movimientos sin significado."
+      }
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Cómo influye la experiencia motriz en el desarrollo cognitivo?",
+      "opciones": {
+        "a": "No existe relación entre movimiento y cognición.",
+        "b": "El movimiento favorece la creación de conexiones neuronales que potencian el aprendizaje.",
+        "c": "El desarrollo motriz inhibe el desarrollo cognitivo.",
+        "d": "La experiencia motriz se limita a la actividad física sin repercusión intelectual."
+      }
+    },
+    {
+      "numero": 11,
+      "pregunta": "¿Qué relación establece la psicomotricidad con otros ámbitos del desarrollo (cognitivo, afectivo y social)?",
+      "opciones": {
+        "a": "No existe ninguna relación entre ellos.",
+        "b": "La psicomotricidad actúa como un nexo integrador que favorece el desarrollo global del niño.",
+        "c": "Se limita únicamente al desarrollo físico.",
+        "d": "Solo incide en el ámbito afectivo sin tocar otros campos."
+      }
+    },
+    {
+      "numero": 12,
+      "pregunta": "¿Cuál es la relevancia de la psicomotricidad en la educación infantil en España?",
+      "opciones": {
+        "a": "Se utiliza exclusivamente en centros especializados.",
+        "b": "Ha sido incorporada para potenciar el desarrollo integral y la adaptación del niño al entorno escolar.",
+        "c": "No tiene aplicación práctica en la educación infantil.",
+        "d": "Solo se emplea en intervenciones terapéuticas y no educativas."
+      }
+    },
+    {
+      "numero": 13,
+      "pregunta": "En cuanto a la metodología, ¿cuál es la diferencia entre un enfoque directivo y uno no directivo en psicomotricidad?",
+      "opciones": {
+        "a": "El directivo implica una programación exhaustiva, mientras que el no directivo se basa en la experiencia vivencial del niño.",
+        "b": "Ambos enfoques son idénticos en su aplicación.",
+        "c": "El no directivo impone rutinas fijas; el directivo, flexibilidad total.",
+        "d": "El enfoque directivo se centra en el juego libre, y el no directivo en ejercicios estructurados."
+      }
+    },
+    {
+      "numero": 14,
+      "pregunta": "¿Qué papel juega el juego libre en la intervención psicomotriz relacional?",
+      "opciones": {
+        "a": "Es irrelevante y debe evitarse.",
+        "b": "Fomenta la espontaneidad, la creatividad y la expresión individual del niño.",
+        "c": "Se utiliza únicamente para la evaluación final.",
+        "d": "Es reemplazado por actividades estrictamente programadas."
+      }
+    },
+    {
+      "numero": 15,
+      "pregunta": "¿Cuál es uno de los principios teóricos básicos de la psicomotricidad?",
+      "opciones": {
+        "a": "La separación completa entre cuerpo y mente.",
+        "b": "La integración de lo físico y lo psíquico en un proceso único de desarrollo.",
+        "c": "La priorización exclusiva de la función motriz sobre la emocional.",
+        "d": "La aplicación de técnicas sin considerar el contexto socioafectivo."
+      }
+    },
+    {
+      "numero": 16,
+      "pregunta": "¿Cómo se entiende la 'intervención psicomotriz' en un contexto educativo?",
+      "opciones": {
+        "a": "Como un conjunto de ejercicios mecánicos sin significado.",
+        "b": "Como una estrategia integral que favorece la adaptación y el desarrollo armónico del niño.",
+        "c": "Como una actividad de ocio sin aplicación pedagógica.",
+        "d": "Como una intervención exclusiva para corregir deficiencias motoras."
+      }
+    },
+    {
+      "numero": 17,
+      "pregunta": "¿Qué importancia tiene la integración de la dimensión afectiva en la intervención psicomotriz?",
+      "opciones": {
+        "a": "No tiene importancia, ya que solo importa lo físico.",
+        "b": "Es fundamental para lograr una respuesta integral que vincule emoción, movimiento y cognición.",
+        "c": "Solo se aborda en intervenciones terapéuticas, no en el ámbito educativo.",
+        "d": "Su inclusión dificulta el aprendizaje de habilidades motrices."
+      }
+    },
+    {
+      "numero": 18,
+      "pregunta": "¿Cómo se valora la evolución histórica de la psicomotricidad en España?",
+      "opciones": {
+        "a": "Como una disciplina introducida sin influencias externas.",
+        "b": "Como un proceso de incorporación gradual influenciado por la experiencia francesa y la adaptación local.",
+        "c": "Como una técnica importada que no se ha modificado con el tiempo.",
+        "d": "Como una práctica que solo se utiliza en contextos clínicos."
+      }
+    },
+    {
+      "numero": 19,
+      "pregunta": "¿Qué relevancia tiene la formación en psicomotricidad para el profesorado de educación infantil?",
+      "opciones": {
+        "a": "Es irrelevante, ya que la psicomotricidad se aprende de forma natural.",
+        "b": "Es fundamental para diseñar intervenciones adecuadas y adaptadas a las necesidades del alumnado.",
+        "c": "Solo es necesaria para intervenciones en centros especializados.",
+        "d": "Se limita a la realización de ejercicios preestablecidos sin análisis crítico."
+      }
+    },
+    {
+      "numero": 20,
+      "pregunta": "¿Qué papel juega el lenguaje en el desarrollo psicomotriz según algunos teóricos?",
+      "opciones": {
+        "a": "No tiene ninguna influencia en la actividad motriz.",
+        "b": "Es una herramienta básica que, junto con la actividad corporal, facilita la expresión y la comunicación.",
+        "c": "Se utiliza únicamente en la enseñanza de contenidos teóricos.",
+        "d": "Interfiere en la ejecución correcta de los movimientos."
+      }
+    },
+    {
+      "numero": 21,
+      "pregunta": "¿Por qué se considera fundamental la actividad corporal en el proceso de aprendizaje infantil?",
+      "opciones": {
+        "a": "Porque permite la automatización de respuestas sin conexión con el entorno.",
+        "b": "Porque favorece la integración de experiencias sensoriales, emocionales y cognitivas, promoviendo un desarrollo integral.",
+        "c": "Porque es la única forma de medir el rendimiento físico.",
+        "d": "Porque se basa únicamente en la repetición sin implicación pedagógica."
+      }
+    },
+    {
+      "numero": 22,
+      "pregunta": "¿Cómo se caracteriza la evolución histórica del concepto de psicomotricidad desde principios del siglo XX?",
+      "opciones": {
+        "a": "Como un concepto estático que no ha variado desde su origen.",
+        "b": "Como un proceso dinámico que ha integrado aspectos motoros, psíquicos y afectivos a lo largo del tiempo.",
+        "c": "Como una técnica puramente física sin influencia en otras áreas.",
+        "d": "Como una práctica exclusiva de la intervención clínica sin aplicación educativa."
+      }
+    },
+    {
+      "numero": 23,
+      "pregunta": "¿Qué importancia tiene la planificación en una intervención psicomotriz?",
+      "opciones": {
+        "a": "Es secundaria, ya que la espontaneidad del niño es lo único que importa.",
+        "b": "Es fundamental para estructurar objetivos, metodologías y actividades que respondan a las necesidades individuales.",
+        "c": "Solo se requiere en intervenciones de corta duración.",
+        "d": "No es necesaria si se sigue un manual preestablecido sin modificaciones."
+      }
+    },
+    {
+      "numero": 24,
+      "pregunta": "¿Cuál es la relevancia de incorporar técnicas de relajación en la intervención psicomotriz?",
+      "opciones": {
+        "a": "Permiten únicamente la reducción del estrés sin influir en la motricidad.",
+        "b": "Contribuyen a mejorar la regulación emocional y el control corporal, potenciando el proceso de aprendizaje.",
+        "c": "Son técnicas que sustituyen la necesidad de actividad física.",
+        "d": "No tienen aplicación en la educación infantil."
+      }
+    },
+    {
+      "numero": 25,
+      "pregunta": "¿Cómo se vincula la expresión simbólica con la actividad corporal en la psicomotricidad?",
+      "opciones": {
+        "a": "La expresión simbólica es irrelevante en el desarrollo motriz.",
+        "b": "El movimiento corporal se convierte en un medio para expresar emociones, ideas y establecer comunicación con el entorno.",
+        "c": "Se limita a la imitación de movimientos sin significado.",
+        "d": "Solo se utiliza en intervenciones artísticas sin impacto en el aprendizaje."
+      }
+    },
+    {
+      "numero": 26,
+      "pregunta": "¿Cuál es el impacto de la psicomotricidad en la integración social del niño?",
+      "opciones": {
+        "a": "No tiene impacto en la interacción social.",
+        "b": "Favorece la comunicación y la adaptación al entorno, potenciando vínculos sociales saludables.",
+        "c": "Se centra exclusivamente en la mejora física sin promover relaciones interpersonales.",
+        "d": "Genera competencia entre pares que limita la cooperación."
+      }
+    },
+    {
+      "numero": 27,
+      "pregunta": "¿Qué rol juegan los recursos didácticos en una intervención psicomotriz?",
+      "opciones": {
+        "a": "Son secundarios y se utilizan solo como complemento.",
+        "b": "Facilitan la implementación de actividades variadas y adaptadas, enriqueciendo el proceso de aprendizaje.",
+        "c": "Limitan la creatividad del educador al establecer pautas rígidas.",
+        "d": "Se emplean únicamente en evaluaciones finales sin incidencia en la intervención."
+      }
+    },
+    {
+      "numero": 28,
+      "pregunta": "¿Cómo se relaciona la psicomotricidad con el desarrollo de la creatividad en el niño?",
+      "opciones": {
+        "a": "No existe relación, pues la creatividad se desarrolla solo en el ámbito artístico.",
+        "b": "El estímulo a la expresión corporal y al juego libre promueve la creatividad y la imaginación.",
+        "c": "La creatividad se ve inhibida por las rutinas psicomotrices estructuradas.",
+        "d": "Se desarrolla únicamente a través de ejercicios de memorización."
+      }
+    },
+    {
+      "numero": 29,
+      "pregunta": "¿Qué papel tiene la intervención psicomotriz en la mejora de la autoimagen y la confianza del niño?",
+      "opciones": {
+        "a": "No influye en la autoimagen, ya que solo afecta lo físico.",
+        "b": "Mediante el logro de destrezas motrices y la expresión corporal, se fomenta una percepción positiva de sí mismo.",
+        "c": "Solo se centra en corregir deficiencias sin aportar elementos emocionales.",
+        "d": "Genera dependencia de la intervención del educador sin fortalecer la autonomía."
+      }
+    },
+    {
+      "numero": 30,
+      "pregunta": "¿Cuál es el aporte global de la psicomotricidad en el desarrollo integral del niño?",
+      "opciones": {
+        "a": "Se limita a la mejora del rendimiento físico sin repercutir en otros ámbitos.",
+        "b": "Integra dimensiones físicas, cognitivas, afectivas y sociales para favorecer un desarrollo armónico y global.",
+        "c": "Actúa únicamente como herramienta terapéutica en casos específicos.",
+        "d": "Solo se utiliza en entornos clínicos sin aplicación educativa general."
+      }
+    }
+  ],
+  "respuestas_correctas": [
+    { "numero": 1, "respuesta": "b" },
+    { "numero": 2, "respuesta": "a" },
+    { "numero": 3, "respuesta": "b" },
+    { "numero": 4, "respuesta": "a" },
+    { "numero": 5, "respuesta": "a" },
+    { "numero": 6, "respuesta": "b" },
+    { "numero": 7, "respuesta": "a" },
+    { "numero": 8, "respuesta": "c" },
+    { "numero": 9, "respuesta": "c" },
+    { "numero": 10, "respuesta": "b" },
+    { "numero": 11, "respuesta": "b" },
+    { "numero": 12, "respuesta": "b" },
+    { "numero": 13, "respuesta": "a" },
+    { "numero": 14, "respuesta": "b" },
+    { "numero": 15, "respuesta": "b" },
+    { "numero": 16, "respuesta": "b" },
+    { "numero": 17, "respuesta": "b" },
+    { "numero": 18, "respuesta": "b" },
+    { "numero": 19, "respuesta": "b" },
+    { "numero": 20, "respuesta": "b" },
+    { "numero": 21, "respuesta": "b" },
+    { "numero": 22, "respuesta": "b" },
+    { "numero": 23, "respuesta": "b" },
+    { "numero": 24, "respuesta": "b" },
+    { "numero": 25, "respuesta": "b" },
+    { "numero": 26, "respuesta": "b" },
+    { "numero": 27, "respuesta": "b" },
+    { "numero": 28, "respuesta": "b" },
+    { "numero": 29, "respuesta": "b" },
+    { "numero": 30, "respuesta": "b" }
+  ],
+  "banco_explicaciones": [
+    { "numero": 1, "explicacion": "La psicomotricidad se define como la integración del movimiento corporal y la expresión simbólica, permitiendo que el niño interactúe y se comunique con su entorno." },
+    { "numero": 2, "explicacion": "El término surge en 1903 en Francia, marcando el inicio de una disciplina que relaciona el cuerpo y la mente." },
+    { "numero": 3, "explicacion": "Dupré destacó la relación entre déficits motrices y alteraciones psíquicas, lo que impulsó la visión integral del desarrollo." },
+    { "numero": 4, "explicacion": "Wallon integró las funciones motrices y psíquicas, fundamentando la idea de que el movimiento es parte esencial del desarrollo emocional y cognitivo." },
+    { "numero": 5, "explicacion": "La psicomotricidad instrumental utiliza ejercicios estructurados (modelo de Vayer) mientras que la relacional (Lapierre) apuesta por el juego libre." },
+    { "numero": 6, "explicacion": "André Lapierre es el principal exponente del enfoque relacional, enfatizando la importancia del juego y la espontaneidad." },
+    { "numero": 7, "explicacion": "Ajurriaguerra introdujo técnicas de reeducación basadas en la relajación corporal, permitiendo corregir alteraciones motrices a través de la calma." },
+    { "numero": 8, "explicacion": "El educador debe guiar la actividad adaptándola a las características individuales, favoreciendo el aprendizaje personalizado." },
+    { "numero": 9, "explicacion": "El esquema corporal es esencial para la identificación, coordinación y la construcción de la imagen corporal, lo que influye en la autopercepción." },
+    { "numero": 10, "explicacion": "La experiencia motriz estimula la formación de conexiones neuronales y apoya procesos cognitivos, facilitando el aprendizaje." },
+    { "numero": 11, "explicacion": "La psicomotricidad actúa como un nexo integrador, influyendo en el desarrollo cognitivo, afectivo y social del niño." },
+    { "numero": 12, "explicacion": "En España, la psicomotricidad se ha incorporado en la educación infantil para favorecer un desarrollo global y la adaptación al entorno escolar." },
+    { "numero": 13, "explicacion": "El enfoque directivo implica una programación detallada, mientras que el no directivo se apoya en la experiencia vivencial del niño." },
+    { "numero": 14, "explicacion": "El juego libre es esencial en la intervención relacional, ya que promueve la creatividad, la expresión y la autonomía del niño." },
+    { "numero": 15, "explicacion": "Uno de los principios fundamentales es la integración de lo físico y lo psíquico, lo que permite un desarrollo armónico." },
+    { "numero": 16, "explicacion": "La intervención psicomotriz en el aula se entiende como un proceso integral que favorece la adaptación y el desarrollo global." },
+    { "numero": 17, "explicacion": "Incluir la dimensión afectiva permite conectar emociones y movimiento, enriqueciendo la experiencia formativa del niño." },
+    { "numero": 18, "explicacion": "La evolución en España ha sido dinámica, adoptando influencias extranjeras y adaptándose a las necesidades locales." },
+    { "numero": 19, "explicacion": "La formación en psicomotricidad es vital para que el profesorado pueda diseñar e implementar intervenciones eficaces y adaptadas." },
+    { "numero": 20, "explicacion": "El lenguaje se considera una herramienta que, junto con la actividad corporal, facilita la comunicación y la expresión integral del niño." },
+    { "numero": 21, "explicacion": "La actividad corporal favorece la integración sensorial, emocional y cognitiva, siendo esencial para el aprendizaje integral." },
+    { "numero": 22, "explicacion": "La evolución histórica muestra un proceso de integración progresiva de diversas dimensiones (motor, psíquico y afectivo) en la psicomotricidad." },
+    { "numero": 23, "explicacion": "La planificación es clave para definir objetivos y métodos adecuados, permitiendo intervenciones adaptadas a cada contexto y alumno." },
+    { "numero": 24, "explicacion": "Técnicas de relajación ayudan a regular la respuesta emocional y mejorar el control corporal, elementos esenciales en la intervención psicomotriz." },
+    { "numero": 25, "explicacion": "El vínculo entre expresión simbólica y actividad corporal permite que el movimiento se convierta en medio de comunicación y de expresión de emociones e ideas." },
+    { "numero": 26, "explicacion": "La psicomotricidad favorece la interacción social al potenciar habilidades comunicativas y de adaptación al entorno." },
+    { "numero": 27, "explicacion": "Los recursos didácticos (materiales, espacios, herramientas) enriquecen la intervención, permitiendo actividades variadas y adaptadas." },
+    { "numero": 28, "explicacion": "El estímulo a la creatividad se desarrolla a través de la libre expresión corporal y la posibilidad de experimentar de manera lúdica." },
+    { "numero": 29, "explicacion": "Una intervención psicomotriz bien diseñada fortalece la autoimagen y la confianza, al permitir que el niño logre metas y se exprese libremente." },
+    { "numero": 30, "explicacion": "El aporte global de la psicomotricidad radica en su capacidad para integrar aspectos físicos, cognitivos, afectivos y sociales, promoviendo un desarrollo armónico y global." }
+  ]
+}
 
