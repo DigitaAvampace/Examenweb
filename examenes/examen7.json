@@ -1,1 +1,278 @@
+{
+  "titulo": "Examen Avanzado Integrado en Educación Infantil - Versión 7",
+  "instrucciones": "Responda las 30 preguntas de opción múltiple. Cada pregunta integra conceptos de psicomotricidad, educación sensoriomotora y evaluación de la intervención a nivel extremo. Fundamente sus respuestas con análisis crítico, evidencia empírica y marcos teóricos contemporáneos.",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Cómo se fundamenta la interrelación entre procesos psicomotores y cognitivos según la 'embodied cognition'?",
+      "opciones": {
+        "a": "Separación total entre cuerpo y mente.",
+        "b": "Influencia mínima del cuerpo en la cognición.",
+        "c": "Interdependencia total entre experiencia corporal y procesos cognitivos.",
+        "d": "Dependencia exclusiva de estímulos externos."
+      }
+    },
+    {
+      "numero": 2,
+      "pregunta": "En intervenciones educativas, ¿cuál es el principal beneficio de integrar métodos cualitativos y cuantitativos en la evaluación?",
+      "opciones": {
+        "a": "Ofrecer una visión reduccionista.",
+        "b": "Garantizar objetividad sin contexto.",
+        "c": "Capturar la complejidad del proceso de aprendizaje.",
+        "d": "Simplificar la interpretación de datos."
+      }
+    },
+    {
+      "numero": 3,
+      "pregunta": "Según investigaciones recientes, ¿cuál es el efecto de la estimulación multisensorial en el desarrollo ejecutivo?",
+      "opciones": {
+        "a": "Inhibe la planificación.",
+        "b": "No tiene efecto.",
+        "c": "Genera distracción en el alumno.",
+        "d": "Mejora la atención sostenida y la flexibilidad cognitiva."
+      }
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Qué papel desempeña la autoevaluación en el fortalecimiento del aprendizaje autónomo en educación infantil?",
+      "opciones": {
+        "a": "Genera dependencia del docente.",
+        "b": "Es irrelevante en el proceso formativo.",
+        "c": "Fomenta la memorización sin reflexión.",
+        "d": "Facilita el reconocimiento de errores y fortalezas, promoviendo la mejora continua."
+      }
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Cómo influye el contexto cultural en la efectividad de intervenciones integrales?",
+      "opciones": {
+        "a": "Es irrelevante en el proceso de intervención.",
+        "b": "Solo afecta el ámbito cognitivo.",
+        "c": "No influye si se utilizan métodos estandarizados.",
+        "d": "Modula la recepción y adecuación de estrategias, siendo esencial para la pertinencia."
+      }
+    },
+    {
+      "numero": 6,
+      "pregunta": "En la planificación de actividades sensoriomotoras, ¿cuál es la importancia de la flexibilidad metodológica?",
+      "opciones": {
+        "a": "Permite ajustar estrategias según las necesidades individuales.",
+        "b": "Reduce la efectividad al no seguir un protocolo fijo.",
+        "c": "Es innecesaria en entornos altamente estructurados.",
+        "d": "Limita la creatividad del educador."
+      }
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué efecto tiene la integración de tecnologías digitales en la intervención educativa?",
+      "opciones": {
+        "a": "Aumenta la personalización del aprendizaje.",
+        "b": "Elimina la necesidad de la evaluación formativa.",
+        "c": "Genera un exceso de datos sin utilidad práctica.",
+        "d": "Disminuye la interacción directa entre alumno y docente."
+      }
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Cuál es el desafío principal al aplicar instrumentos estandarizados en contextos multiculturales?",
+      "opciones": {
+        "a": "La adaptación a la diversidad cultural.",
+        "b": "La obtención de datos numéricos precisos.",
+        "c": "La eliminación de la subjetividad del evaluador.",
+        "d": "La estandarización automática sin ajustes contextuales."
+      }
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Cómo contribuye la intervención psicomotriz a la integración social en entornos educativos inclusivos?",
+      "opciones": {
+        "a": "Aislando la función motriz del resto del desarrollo.",
+        "b": "Fomentando la competencia individual en detrimento de la cooperación.",
+        "c": "Reforzando la segregación a través de técnicas especializadas.",
+        "d": "Promoviendo la interacción y la comunicación a través del juego y la expresión corporal."
+      }
+    },
+    {
+      "numero": 10,
+      "pregunta": "Desde la perspectiva de la evaluación formativa, ¿cuál es el objetivo principal de la retroalimentación continua?",
+      "opciones": {
+        "a": "Clasificar a los alumnos al final del ciclo.",
+        "b": "Minimizar la participación del educador en el proceso.",
+        "c": "Adaptar la intervención en tiempo real en función de las necesidades detectadas.",
+        "d": "Certificar los logros sin ajustar la estrategia."
+      }
+    },
+    {
+      "numero": 11,
+      "pregunta": "¿Cómo se relaciona la reeducación psicomotriz con el fortalecimiento de la autonomía en niños con necesidades especiales?",
+      "opciones": {
+        "a": "Mejora la autogestión e integración social.",
+        "b": "Se centra exclusivamente en la mejora física.",
+        "c": "Genera dependencia al focalizarse en deficiencias.",
+        "d": "Aísla la intervención del entorno familiar."
+      }
+    },
+    {
+      "numero": 12,
+      "pregunta": "En el diseño de intervenciones integrales, ¿cuál es el valor de incorporar enfoques interdisciplinares?",
+      "opciones": {
+        "a": "Complica la implementación sin beneficios claros.",
+        "b": "Es innecesario en contextos homogéneos.",
+        "c": "Limita la innovación pedagógica.",
+        "d": "Enriquece la práctica al integrar diversas perspectivas y metodologías."
+      }
+    },
+    {
+      "numero": 13,
+      "pregunta": "¿Qué rol tiene el educador en la implementación de evaluaciones participativas?",
+      "opciones": {
+        "a": "Recolección pasiva de datos sin intervención.",
+        "b": "Actúa solo como evaluador externo.",
+        "c": "Lidera el proceso involucrando a alumnos y familias para construir una evaluación integral.",
+        "d": "Se limita a aspectos administrativos sin retroalimentación."
+      }
+    },
+    {
+      "numero": 14,
+      "pregunta": "¿Cómo se justifica la importancia de la formación continua en la eficacia de las intervenciones educativas?",
+      "opciones": {
+        "a": "Es opcional y no influye en la práctica docente.",
+        "b": "Se limita a aspectos administrativos sin impacto real.",
+        "c": "Permite actualizar y adaptar estrategias con nuevos enfoques y evidencias.",
+        "d": "Solo es relevante en educación superior sin conexión con la práctica en el aula."
+      }
+    },
+    {
+      "numero": 15,
+      "pregunta": "¿Qué impacto tiene la dimensión afectiva en la integración de estrategias sensoriomotoras y cognitivas?",
+      "opciones": {
+        "a": "No influye en el proceso de aprendizaje.",
+        "b": "Se limita a la expresión emocional sin repercusión en la cognición.",
+        "c": "Fortalece la motivación y la retención del aprendizaje.",
+        "d": "Interfiere con la ejecución de tareas motrices."
+      }
+    },
+    {
+      "numero": 16,
+      "pregunta": "¿Cómo se puede evaluar la eficacia de una intervención educativa integral?",
+      "opciones": {
+        "a": "Solo mediante evaluaciones sumativas al final del ciclo.",
+        "b": "Con observaciones superficiales sin análisis profundo.",
+        "c": "Excluyendo datos cualitativos en la medición.",
+        "d": "Mediante la combinación de métodos cuantitativos y cualitativos para una visión completa."
+      }
+    },
+    {
+      "numero": 17,
+      "pregunta": "¿Qué papel tiene la planificación individualizada en el éxito de las intervenciones en educación infantil?",
+      "opciones": {
+        "a": "Es irrelevante en entornos grupales.",
+        "b": "Se basa únicamente en protocolos generales.",
+        "c": "Permite adaptar la intervención a las necesidades específicas de cada alumno.",
+        "d": "Limita la cohesión del grupo al focalizarse en el individuo."
+      }
+    },
+    {
+      "numero": 18,
+      "pregunta": "Según estudios recientes, ¿cómo afecta la integración de actividades lúdicas avanzadas al desarrollo cognitivo?",
+      "opciones": {
+        "a": "No tiene impacto en el desarrollo cognitivo.",
+        "b": "Reduce la capacidad de concentración.",
+        "c": "Estimula la creatividad y fortalece funciones ejecutivas.",
+        "d": "Solo mejora la coordinación motora sin efectos en la cognición."
+      }
+    },
+    {
+      "numero": 19,
+      "pregunta": "¿Qué importancia tiene la evaluación formativa en el ciclo de intervención educativa?",
+      "opciones": {
+        "a": "Se utiliza únicamente para certificar logros al final del ciclo.",
+        "b": "No influye en el diseño de estrategias pedagógicas.",
+        "c": "Permite ajustar la intervención de forma continua en función de la retroalimentación.",
+        "d": "Solo genera datos para informes administrativos sin impacto práctico."
+      }
+    },
+    {
+      "numero": 20,
+      "pregunta": "¿Cómo se relaciona la intervención sensoriomotora con la mejora de la memoria operativa en niños?",
+      "opciones": {
+        "a": "No existe relación entre ambas.",
+        "b": "Solo afecta la percepción visual sin repercusión en la memoria.",
+        "c": "Inhibe el proceso de memorización al sobreestimular.",
+        "d": "Activa circuitos cerebrales que mejoran la atención y la memoria operativa."
+      }
+    },
+    {
+      "numero": 21,
+      "pregunta": "¿Qué efecto tiene la integración de recursos digitales en la personalización de la enseñanza?",
+      "opciones": {
+        "a": "Limita la personalización al imponer un formato fijo.",
+        "b": "Reduce el seguimiento individual del alumno.",
+        "c": "No tiene impacto en la adaptación de contenidos.",
+        "d": "Permite adaptar los contenidos a las necesidades individuales y monitorear el progreso en tiempo real."
+      }
+    },
+    {
+      "numero": 22,
+      "pregunta": "Desde una perspectiva crítica, ¿cuál es la relevancia de incorporar evaluaciones contextuales en la medición de la intervención?",
+      "opciones": {
+        "a": "Genera datos anecdóticos sin valor analítico.",
+        "b": "Limita la comparabilidad de resultados entre contextos.",
+        "c": "No es necesaria si se usan pruebas estandarizadas.",
+        "d": "Permite capturar la complejidad del entorno y adaptar la intervención a realidades específicas."
+      }
+    },
+    {
+      "numero": 23,
+      "pregunta": "¿Cómo se articula el rol del liderazgo transformacional en la implementación de intervenciones integrales?",
+      "opciones": {
+        "a": "El liderazgo transformacional es irrelevante en entornos educativos.",
+        "b": "Se basa únicamente en la toma de decisiones administrativas.",
+        "c": "Fomenta la innovación y el cambio, promoviendo una cultura de mejora continua.",
+        "d": "Limita la participación del profesorado en la transformación."
+      }
+    },
+    {
+      "numero": 24,
+      "pregunta": "¿Qué desafíos presenta la medición de la eficacia de intervenciones en contextos de alta diversidad funcional?",
+      "opciones": {
+        "a": "La imposición de métodos unidimensionales.",
+        "b": "La dificultad para obtener datos numéricos precisos.",
+        "c": "La falta de adaptación de instrumentos estandarizados.",
+        "d": "La necesidad de integrar datos cualitativos y cuantitativos para reflejar la complejidad del aprendizaje."
+      }
+    },
+    {
+      "numero": 25,
+      "pregunta": "Desde una perspectiva sistémica, ¿cómo se interrelacionan las dimensiones físicas, cognitivas y afectivas en una intervención integral?",
+      "opciones": {
+        "a": "Se abordan de forma aislada.",
+        "b": "Solo la dimensión cognitiva es determinante.",
+        "c": "La integración se limita a aspectos emocionales sin influir en la motricidad.",
+        "d": "Interactúan de manera dinámica y se refuerzan mutuamente."
+      }
+    },
+    {
+      "numero": 26,
+      "pregunta": "¿Cuál es la implicación de la investigación acción en el perfeccionamiento de prácticas pedagógicas en contextos diversos?",
+      "opciones": {
+        "a": "Es un método teórico sin aplicación práctica.",
+        "b": "Se centra únicamente en la documentación sin generar cambios.",
+        "c": "Permite a los docentes reflexionar y ajustar sus estrategias en base a evidencias empíricas.",
+        "d": "Solo se utiliza en entornos de investigación sin impacto en el aula."
+      }
+    },
+    {
+      "numero": 27,
+      "pregunta": "¿Qué papel tiene la cultura organizacional en la implementación de intervenciones en entornos multiculturales?",
+      "opciones": {
+        "a": "No influye en la intervención educativa.",
+        "b": "Solo afecta aspectos logísticos sin impacto pedagógico.",
+        "c": "Restringe la innovación al mantener estructuras rígidas.",
+        "d": "Una cultura colaborativa y flexible favorece la implementación y el éxito de las intervenciones."
+      }
+    },
+    {
+      "numero": 28,
+      "pregunta": "¿Cómo se fomenta la co-construcción del conocimiento mediante
 
