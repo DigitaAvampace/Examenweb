@@ -22,23 +22,23 @@
   <div id="contenidoExamen" style="display:none;"></div>
   <!-- Sección para mostrar resultados -->
   <div id="resultado"></div>
-  <!-- Sección para revisar errores (inicialmente oculta) -->
+  <!-- Sección para revisar explicaciones de todas las preguntas -->
   <div id="revisarErrores" style="display:none;"></div>
 
   <script>
-    // Paso 1: Define la URL RAW del JSON en GitHub
+    // URL RAW del archivo índice en GitHub
     const urlExamen = 'https://raw.githubusercontent.com/DigitaAvampace/Examenweb/main/indice.json';
     
-    // Variables globales para almacenar los datos
-    let examenesData = null;   // Guardará el arreglo de exámenes
-    let banco_explicaciones = null; // Guardará el banco de explicaciones
-    let examenActual = null;   // Examen seleccionado
+    // Variables globales
+    let examenesData = null;       // Almacena el arreglo de exámenes
+    let examenActual = null;       // Examen seleccionado
+    let respuestasUsuario = [];    // Almacena las respuestas del usuario
 
     // Cargar el JSON desde GitHub
     fetch(urlExamen)
       .then(response => {
         if (!response.ok) {
-          throw new Error('No se pudo cargar el JSON. ¡Ojo! Revisa que uses la URL RAW y que el repositorio sea público.');
+          throw new Error('No se pudo cargar el JSON. Revisa que uses la URL RAW y que el repositorio sea público.');
         }
         return response.json();
       })
@@ -47,14 +47,14 @@
           throw new Error('El JSON no tiene la propiedad "examenes".');
         }
         examenesData = data.examenes;
-        banco_explicaciones = data.banco_explicaciones; // ¡Guardamos el banco de explicaciones!
+        // Se asume que el banco de explicaciones se incluye dentro de cada examen (como propiedad "banco_explicaciones")
         mostrarListadoExamenes();
       })
       .catch(error => {
         document.body.innerHTML = '<p>Error al cargar el examen: ' + error.message + '</p>';
       });
 
-    // Paso 2: Mostrar la lista de exámenes disponibles
+    // Función para mostrar la lista de exámenes
     function mostrarListadoExamenes() {
       const div = document.getElementById('examenSeleccion');
       div.innerHTML = '<h2>Elige el examen:</h2>';
@@ -67,14 +67,14 @@
       });
     }
 
-    // Paso 3: Cargar el examen seleccionado y mostrarlo
+    // Función para cargar y mostrar el examen seleccionado
     function cargarExamen(indice) {
       examenActual = examenesData[indice];
       document.getElementById('examenSeleccion').style.display = 'none';
       const divContenido = document.getElementById('contenidoExamen');
       divContenido.style.display = 'block';
       let html = `<h2>${examenActual.titulo}</h2>`;
-      html += `<p>${examenActual.instrucciones}</p>`;
+      html += `<p>${examenActual.instrucciones || ""}</p>`;
       examenActual.preguntas.forEach((pregunta, i) => {
         html += `<div class="pregunta">
                    <p><strong>Pregunta ${pregunta.numero}:</strong> ${pregunta.pregunta}</p>`;
@@ -91,11 +91,12 @@
       divContenido.innerHTML = html;
     }
 
-    // Paso 4: Procesa las respuestas, calcula el puntaje y muestra los resultados
+    // Función para procesar las respuestas del usuario
     function enviarRespuestas() {
       let puntaje = 0;
       let total = examenActual.preguntas.length;
       let detalles = '';
+      respuestasUsuario = []; // Reinicia las respuestas del usuario
       examenActual.preguntas.forEach((pregunta, i) => {
         const radios = document.getElementsByName(`pregunta${i}`);
         let respuestaUsuario = null;
@@ -104,7 +105,14 @@
             respuestaUsuario = radio.value;
           }
         });
-        const respuestaCorrecta = examenActual.respuestas_correctas[String(pregunta.numero)];
+        respuestasUsuario.push({ numero: pregunta.numero, respuesta: respuestaUsuario });
+        // Obtener la respuesta correcta (asumiendo que "respuestas_correctas" es un array de objetos con propiedades "numero" y "respuesta")
+        let respuestaCorrecta = "";
+        examenActual.respuestas_correctas.forEach(obj => {
+          if (obj.numero === pregunta.numero) {
+            respuestaCorrecta = obj.respuesta;
+          }
+        });
         if (respuestaUsuario === respuestaCorrecta) {
           puntaje++;
           detalles += `<div class="detalle">Pregunta ${pregunta.numero}: <span class="correcta">Correcto</span></div>`;
@@ -116,34 +124,42 @@
       divResultado.innerHTML = `<h2>Resultado</h2>
                                 <p>Puntaje: ${puntaje} de ${total}</p>
                                 ${detalles}
-                                <button onclick="mostrarRevisar()">Revisar Errores</button>
+                                <button onclick="mostrarRevisar()">Revisar Explicaciones</button>
                                 <button onclick="location.reload()">Reiniciar Examen</button>`;
       document.getElementById('contenidoExamen').style.display = 'none';
     }
 
-    // Paso 5: Mostrar detalles y explicaciones de las respuestas incorrectas
+    // Función para mostrar explicaciones de todas las preguntas (correctas e incorrectas)
     function mostrarRevisar() {
-      const explicaciones = (banco_explicaciones && banco_explicaciones[examenActual.titulo])
-                              ? banco_explicaciones[examenActual.titulo]
-                              : {};
-      let html = '<h2>Revisión de Errores</h2>';
+      let html = '<h2>Revisión y Explicaciones</h2>';
       examenActual.preguntas.forEach((pregunta, i) => {
-        const radios = document.getElementsByName(`pregunta${i}`);
-        let respuestaUsuario = null;
-        radios.forEach(radio => {
-          if (radio.checked) {
-            respuestaUsuario = radio.value;
+        // Obtener respuesta correcta
+        let respuestaCorrecta = "";
+        examenActual.respuestas_correctas.forEach(obj => {
+          if (obj.numero === pregunta.numero) {
+            respuestaCorrecta = obj.respuesta;
           }
         });
-        const respuestaCorrecta = examenActual.respuestas_correctas[String(pregunta.numero)];
-        if (respuestaUsuario !== respuestaCorrecta) {
-          html += `<div class="pregunta">
-                     <p><strong>Pregunta ${pregunta.numero}:</strong> ${pregunta.pregunta}</p>
-                     <p>Tu respuesta: <span class="incorrecta">${respuestaUsuario || 'Ninguna'}</span></p>
-                     <p>Respuesta correcta: <span class="correcta">${respuestaCorrecta}</span></p>
-                     <p>Explicación: ${explicaciones[String(pregunta.numero)] || 'No hay explicación disponible.'}</p>
-                   </div>`;
+        // Obtener explicación desde el banco de explicaciones (se asume que está en examenActual.banco_explicaciones)
+        let explicacionTexto = "";
+        if (examenActual.banco_explicaciones) {
+          examenActual.banco_explicaciones.forEach(expObj => {
+            if (expObj.numero === pregunta.numero) {
+              explicacionTexto = expObj.explicacion;
+            }
+          });
         }
+        // Obtener respuesta del usuario de respuestasUsuario
+        let userResp = "";
+        if (respuestasUsuario && respuestasUsuario[i]) {
+          userResp = respuestasUsuario[i].respuesta;
+        }
+        html += `<div class="pregunta">
+                   <p><strong>Pregunta ${pregunta.numero}:</strong> ${pregunta.pregunta}</p>
+                   <p>Tu respuesta: ${userResp || 'Ninguna'}</p>
+                   <p>Respuesta correcta: ${respuestaCorrecta}</p>
+                   <p>Explicación: ${explicacionTexto || 'No hay explicación disponible.'}</p>
+                 </div>`;
       });
       const divRevisar = document.getElementById('revisarErrores');
       divRevisar.style.display = 'block';
