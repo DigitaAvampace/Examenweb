@@ -1,1 +1,371 @@
+{
+  "titulo": "Examen Integrado de Educación Sensoriomotora y Cognitiva - Versión 2",
+  "instrucciones": "Responda las siguientes 30 preguntas de opción múltiple. Cada pregunta contiene cuatro alternativas (a, b, c, d). Fundamente su respuesta en los principios de la planificación educativa sensoriomotora, la estimulación de los sentidos y el desarrollo cognitivo en la etapa infantil. Se valorará el análisis crítico, la integración de experiencias prácticas y la conexión con fundamentos teóricos actualizados.",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Cuál es el objetivo primordial de la programación en la educación sensoriomotora en la etapa infantil?",
+      "opciones": {
+        "a": "Establecer rutinas rígidas sin adaptarse al ritmo individual.",
+        "b": "Potenciar el desarrollo integral mediante actividades adaptadas a las necesidades de cada niño.",
+        "c": "Imponer contenidos teóricos sin aplicación práctica.",
+        "d": "Limitar la estimulación a un solo sentido."
+      }
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Cómo influye la estimulación sensorial en el desarrollo cognitivo del niño?",
+      "opciones": {
+        "a": "No tiene relación con el desarrollo cognitivo.",
+        "b": "Favorece la formación de conexiones neuronales y enriquece la experiencia de aprendizaje.",
+        "c": "Se limita a mejorar únicamente la coordinación motora.",
+        "d": "Genera sobreestimulación que dificulta el aprendizaje."
+      }
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Por qué es fundamental que la planificación en educación sensoriomotora sea flexible?",
+      "opciones": {
+        "a": "Para ajustarse a los ritmos y necesidades individuales de cada niño.",
+        "b": "Porque la flexibilidad reduce la calidad del aprendizaje.",
+        "c": "Para evitar cualquier tipo de evaluación del progreso.",
+        "d": "Porque permite eliminar la intervención del educador."
+      }
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Cuáles son los elementos esenciales de una programación educativa sensoriomotora?",
+      "opciones": {
+        "a": "Solo actividades y recursos sin objetivos claros.",
+        "b": "Objetivos, contenidos, metodología, actividades, recursos y evaluación.",
+        "c": "Únicamente contenidos teóricos sin actividades prácticas.",
+        "d": "Solo la evaluación final sin planificación previa."
+      }
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Cómo se debe ajustar la estimulación sensorial en función de la edad y nivel de desarrollo?",
+      "opciones": {
+        "a": "Aplicando el mismo estímulo para todos los niños.",
+        "b": "Adaptando la intensidad y tipo de estímulo al nivel madurativo y la zona de desarrollo próximo.",
+        "c": "Reduciendo la estimulación en todos los casos sin excepciones.",
+        "d": "Aplicando estímulos complejos sin considerar la experiencia previa."
+      }
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué papel juega el sentido del tacto en la estimulación sensorial infantil?",
+      "opciones": {
+        "a": "Es el único sentido relevante para el aprendizaje.",
+        "b": "Permite reconocer texturas y materiales, integrándose en la experiencia multisensorial.",
+        "c": "No tiene influencia en el desarrollo cognitivo.",
+        "d": "Solo se utiliza en actividades artísticas sin relación con otros procesos."
+      }
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Cuál es el factor crucial para evitar la sobreestimulación en la educación sensorial?",
+      "opciones": {
+        "a": "Incrementar continuamente la complejidad de las actividades.",
+        "b": "Respetar el nivel de desarrollo y la zona de desarrollo próximo de cada niño.",
+        "c": "Exigir un ritmo acelerado sin pausas.",
+        "d": "Utilizar métodos estandarizados sin adaptaciones individuales."
+      }
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿De qué manera la educación sensoriomotora favorece el desarrollo social en el aula?",
+      "opciones": {
+        "a": "Limita la interacción social al trabajo individual.",
+        "b": "Fomenta actividades grupales que promueven la comunicación y la cooperación.",
+        "c": "Se centra únicamente en el aprendizaje individual sin interacción.",
+        "d": "Inhibe el desarrollo de habilidades sociales al ser demasiado estructurada."
+      }
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Cuál es la importancia de utilizar materiales variados en la estimulación sensorial?",
+      "opciones": {
+        "a": "Permite experimentar con diferentes texturas, colores y sonidos, enriqueciendo la percepción.",
+        "b": "Confunde al niño y dificulta el aprendizaje.",
+        "c": "No aporta información relevante para el proceso de aprendizaje.",
+        "d": "Debe evitarse para mantener un ambiente homogéneo."
+      }
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Cómo se integran las experiencias multisensoriales en el proceso cognitivo del niño?",
+      "opciones": {
+        "a": "Aislando cada sentido sin vincular la experiencia.",
+        "b": "Mediante actividades que combinan tacto, vista, audición y gusto para favorecer la memoria y el razonamiento.",
+        "c": "Únicamente a través de ejercicios teóricos sin aplicación práctica.",
+        "d": "Separando por completo la estimulación sensorial del aprendizaje."
+      }
+    },
+    {
+      "numero": 11,
+      "pregunta": "¿Cuál es el objetivo de relacionar la estimulación sensorial con el desarrollo del lenguaje?",
+      "opciones": {
+        "a": "No existe relación entre ambos procesos.",
+        "b": "Facilitar la adquisición de vocabulario y la comprensión mediante experiencias prácticas y significativas.",
+        "c": "Impulsar el aprendizaje de lenguajes extranjeros exclusivamente.",
+        "d": "Aislar la comunicación verbal de las experiencias sensoriales."
+      }
+    },
+    {
+      "numero": 12,
+      "pregunta": "¿Qué importancia tiene el juego en la educación sensoriomotora?",
+      "opciones": {
+        "a": "El juego no es relevante para el desarrollo sensorial.",
+        "b": "El juego es una herramienta esencial para explorar el entorno y potenciar la integración de estímulos sensoriales y cognitivos.",
+        "c": "El juego debe ser reemplazado por actividades formales únicamente.",
+        "d": "Solo se utiliza en la evaluación final del aprendizaje."
+      }
+    },
+    {
+      "numero": 13,
+      "pregunta": "¿Cómo se favorece el aprendizaje a través de actividades prácticas en la educación sensoriomotora?",
+      "opciones": {
+        "a": "Mediante la repetición de ejercicios teóricos sin interacción.",
+        "b": "A través de experiencias directas que involucran la manipulación de objetos y la interacción con el entorno.",
+        "c": "Aplicando métodos exclusivamente escritos sin actividades lúdicas.",
+        "d": "Limitando las actividades a la observación sin participación activa."
+      }
+    },
+    {
+      "numero": 14,
+      "pregunta": "¿Qué papel juega la reflexión en la integración de la teoría y la práctica en la intervención sensoriomotora?",
+      "opciones": {
+        "a": "La reflexión no es necesaria en este proceso.",
+        "b": "Permite analizar las experiencias vividas y ajustar la intervención para optimizar el aprendizaje.",
+        "c": "Se limita únicamente a la parte teórica sin aplicación práctica.",
+        "d": "Impide la espontaneidad del aprendizaje al generar excesiva rigidez."
+      }
+    },
+    {
+      "numero": 15,
+      "pregunta": "¿Cómo se potencia el desarrollo de la atención a través de la estimulación sensorial?",
+      "opciones": {
+        "a": "Mediante estímulos monótonos sin variación.",
+        "b": "Con actividades que impliquen la discriminación y diferenciación de estímulos, fortaleciendo la concentración.",
+        "c": "Aplicando estímulos muy intensos que generen distracción.",
+        "d": "Evitando la exposición a múltiples estímulos simultáneos."
+      }
+    },
+    {
+      "numero": 16,
+      "pregunta": "¿Qué importancia tiene la integración de experiencias lúdicas en la educación sensoriomotora?",
+      "opciones": {
+        "a": "No aporta al proceso de aprendizaje.",
+        "b": "Estimula la motivación, la creatividad y el desarrollo integral al combinar diversión y aprendizaje.",
+        "c": "Interfiere con el aprendizaje formal y debe evitarse.",
+        "d": "Se limita a actividades recreativas sin impacto en la cognición."
+      }
+    },
+    {
+      "numero": 17,
+      "pregunta": "¿Por qué es esencial evaluar el nivel de estimulación sensorial aplicado en el aula?",
+      "opciones": {
+        "a": "Para imponer un modelo único sin ajustes.",
+        "b": "Para ajustar la intensidad de los estímulos de acuerdo al desarrollo individual y evitar la sobreestimulación.",
+        "c": "Porque la evaluación no influye en la planificación educativa.",
+        "d": "Para estandarizar las actividades sin considerar diferencias individuales."
+      }
+    },
+    {
+      "numero": 18,
+      "pregunta": "¿Cómo se vinculan las experiencias sensoriales con el desarrollo de la memoria en la infancia?",
+      "opciones": {
+        "a": "No tienen ninguna relación entre sí.",
+        "b": "Las experiencias sensoriales generan recuerdos significativos que facilitan la retención y el procesamiento de la información.",
+        "c": "Solo influyen en la parte motriz sin repercusión en la memoria.",
+        "d": "Provocan sobrecarga de información que dificulta la memorización."
+      }
+    },
+    {
+      "numero": 19,
+      "pregunta": "¿Qué rol juega la interacción con el entorno en el proceso de aprendizaje sensoriomotor?",
+      "opciones": {
+        "a": "El entorno no influye en el aprendizaje.",
+        "b": "La interacción con el entorno permite contextualizar y dar significado a las experiencias sensoriales, enriqueciendo el aprendizaje.",
+        "c": "Se limita a la observación sin participación activa.",
+        "d": "Solo es relevante en la evaluación final."
+      }
+    },
+    {
+      "numero": 20,
+      "pregunta": "¿Cómo se integra la percepción visual en las actividades sensoriomotoras?",
+      "opciones": {
+        "a": "Mediante actividades que no involucran estímulos visuales.",
+        "b": "A través del uso de materiales variados que estimulan el reconocimiento de formas, colores y patrones.",
+        "c": "Excluyéndola para favorecer otros sentidos.",
+        "d": "Aplicando únicamente ejercicios teóricos de observación."
+      }
+    },
+    {
+      "numero": 21,
+      "pregunta": "¿Cuál es la importancia de integrar actividades auditivas en la educación sensoriomotora?",
+      "opciones": {
+        "a": "No es relevante para el desarrollo integral.",
+        "b": "Ayuda a desarrollar la discriminación sonora y la atención, fortaleciendo la comunicación y el aprendizaje.",
+        "c": "Se utiliza solo para ejercicios de memorización sin vinculación con otros sentidos.",
+        "d": "Es prescindible si se estimulan otros sentidos."
+      }
+    },
+    {
+      "numero": 22,
+      "pregunta": "¿Cómo se relaciona la estimulación del gusto y el olfato con la experiencia sensorial en la infancia?",
+      "opciones": {
+        "a": "No tienen ningún papel en el desarrollo sensorial.",
+        "b": "Permiten al niño explorar y diferenciar sabores y olores, ampliando su repertorio sensorial y afectando su memoria.",
+        "c": "Se limitan a actividades culinarias sin conexión con el aprendizaje.",
+        "d": "Generan distracción y deben evitarse en el aula."
+      }
+    },
+    {
+      "numero": 23,
+      "pregunta": "¿Qué impacto tiene la estimulación sensoriomotora en la motivación del niño?",
+      "opciones": {
+        "a": "No influye en la motivación.",
+        "b": "Aumenta la curiosidad y la participación activa, facilitando el aprendizaje significativo.",
+        "c": "Reduce la motivación al sobrecargar al niño.",
+        "d": "Solo es relevante en contextos de evaluación formal."
+      }
+    },
+    {
+      "numero": 24,
+      "pregunta": "¿Por qué es importante integrar la retroalimentación en las actividades sensoriomotoras?",
+      "opciones": {
+        "a": "La retroalimentación no es necesaria en el aprendizaje.",
+        "b": "Permite al niño comprender sus aciertos y errores, ajustando sus estrategias y favoreciendo la mejora continua.",
+        "c": "Solo se utiliza en evaluaciones externas sin incidencia en la práctica diaria.",
+        "d": "Genera dependencia y reduce la autonomía."
+      }
+    },
+    {
+      "numero": 25,
+      "pregunta": "¿Qué papel juega la exploración libre en el desarrollo sensoriomotor?",
+      "opciones": {
+        "a": "La exploración libre es caótica y debe evitarse.",
+        "b": "Fomenta la curiosidad, la autonomía y el descubrimiento de propiedades del entorno a través de la experimentación directa.",
+        "c": "Solo es útil para actividades no estructuradas sin objetivos.",
+        "d": "No tiene impacto en la integración de conocimientos sensoriales."
+      }
+    },
+    {
+      "numero": 26,
+      "pregunta": "¿Cómo contribuye la integración de actividades artísticas al desarrollo cognitivo y sensoriomotor?",
+      "opciones": {
+        "a": "No tiene ninguna contribución al proceso de aprendizaje.",
+        "b": "Combina la expresión creativa con la estimulación sensorial, promoviendo la conexión entre emociones, percepción y pensamiento.",
+        "c": "Se limita exclusivamente a la parte estética sin repercusión en la cognición.",
+        "d": "Genera distracción y debe evitarse en contextos educativos serios."
+      }
+    },
+    {
+      "numero": 27,
+      "pregunta": "¿Cuál es el rol del educador en la implementación de actividades multisensoriales?",
+      "opciones": {
+        "a": "Observar sin intervenir y dejar que el niño actúe solo.",
+        "b": "Diseñar, guiar y ajustar las actividades de acuerdo a las necesidades y respuestas individuales de los niños.",
+        "c": "Imponer un programa inflexible sin considerar la retroalimentación.",
+        "d": "Delegar la responsabilidad a otros profesionales sin involucrarse."
+      }
+    },
+    {
+      "numero": 28,
+      "pregunta": "¿Por qué es importante evaluar el impacto de las actividades sensoriomotoras en el aprendizaje?",
+      "opciones": {
+        "a": "Para estandarizar los procesos sin considerar las diferencias individuales.",
+        "b": "Para ajustar las estrategias pedagógicas y garantizar que la intervención favorezca el desarrollo integral.",
+        "c": "Porque la evaluación no influye en la planificación de futuras actividades.",
+        "d": "Para limitar la creatividad del educador mediante protocolos rígidos."
+      }
+    },
+    {
+      "numero": 29,
+      "pregunta": "¿Cómo se puede promover la integración de la teoría y la práctica en la educación sensoriomotora?",
+      "opciones": {
+        "a": "Separando completamente las actividades prácticas de las explicaciones teóricas.",
+        "b": "Mediante la realización de proyectos y actividades que vinculen la experimentación directa con conceptos teóricos.",
+        "c": "Aplicando únicamente métodos expositivos sin actividades prácticas.",
+        "d": "Limitando la intervención práctica a ejercicios mecánicos sin reflexión."
+      }
+    },
+    {
+      "numero": 30,
+      "pregunta": "¿Cuál es el aporte global de la educación sensoriomotora y cognitiva en el desarrollo infantil?",
+      "opciones": {
+        "a": "Se limita a mejorar la coordinación sin impacto en otras áreas.",
+        "b": "Facilita el desarrollo integral combinando la estimulación sensorial, la acción motriz y el procesamiento cognitivo.",
+        "c": "Solo influye en el ámbito físico y excluye la parte afectiva.",
+        "d": "Es irrelevante en contextos educativos modernos."
+      }
+    }
+  ],
+  "respuestas_correctas": [
+    { "numero": 1, "respuesta": "b" },
+    { "numero": 2, "respuesta": "b" },
+    { "numero": 3, "respuesta": "a" },
+    { "numero": 4, "respuesta": "b" },
+    { "numero": 5, "respuesta": "b" },
+    { "numero": 6, "respuesta": "b" },
+    { "numero": 7, "respuesta": "b" },
+    { "numero": 8, "respuesta": "b" },
+    { "numero": 9, "respuesta": "a" },
+    { "numero": 10, "respuesta": "b" },
+    { "numero": 11, "respuesta": "b" },
+    { "numero": 12, "respuesta": "b" },
+    { "numero": 13, "respuesta": "b" },
+    { "numero": 14, "respuesta": "b" },
+    { "numero": 15, "respuesta": "b" },
+    { "numero": 16, "respuesta": "b" },
+    { "numero": 17, "respuesta": "b" },
+    { "numero": 18, "respuesta": "b" },
+    { "numero": 19, "respuesta": "b" },
+    { "numero": 20, "respuesta": "b" },
+    { "numero": 21, "respuesta": "b" },
+    { "numero": 22, "respuesta": "b" },
+    { "numero": 23, "respuesta": "b" },
+    { "numero": 24, "respuesta": "b" },
+    { "numero": 25, "respuesta": "b" },
+    { "numero": 26, "respuesta": "b" },
+    { "numero": 27, "respuesta": "b" },
+    { "numero": 28, "respuesta": "b" },
+    { "numero": 29, "respuesta": "b" },
+    { "numero": 30, "respuesta": "b" }
+  ],
+  "banco_explicaciones": [
+    { "numero": 1, "explicacion": "El objetivo es potenciar el desarrollo integral adaptando actividades a las necesidades de cada niño." },
+    { "numero": 2, "explicacion": "La estimulación sensorial favorece la conexión neuronal y facilita el procesamiento de la información, impactando directamente en la cognición." },
+    { "numero": 3, "explicacion": "Una planificación flexible permite ajustar los contenidos y actividades según el progreso individual del alumno." },
+    { "numero": 4, "explicacion": "Una programación completa debe contemplar objetivos, contenidos, metodología, actividades, recursos y evaluación para garantizar un proceso de enseñanza-aprendizaje coherente." },
+    { "numero": 5, "explicacion": "Adaptar la estimulación según el nivel de desarrollo evita la sobrecarga y permite una asimilación progresiva de los estímulos." },
+    { "numero": 6, "explicacion": "El tacto es fundamental para que el niño explore y diferencie características del entorno, fortaleciendo la experiencia multisensorial." },
+    { "numero": 7, "explicacion": "Respetar la zona de desarrollo próximo del niño es clave para evitar la sobreestimulación y favorecer un aprendizaje adecuado." },
+    { "numero": 8, "explicacion": "Las actividades grupales en el aula promueven la interacción, el intercambio y la construcción de habilidades sociales." },
+    { "numero": 9, "explicacion": "El uso de materiales variados estimula diferentes sentidos, enriqueciendo la percepción y ampliando la experiencia sensorial." },
+    { "numero": 10, "explicacion": "Las experiencias multisensoriales integradas en actividades prácticas favorecen la memoria y el razonamiento, consolidando aprendizajes duraderos." },
+    { "numero": 11, "explicacion": "La vinculación entre estimulación sensorial y lenguaje facilita la adquisición de vocabulario y la comprensión a partir de experiencias significativas." },
+    { "numero": 12, "explicacion": "El juego es esencial para que los niños exploren, se expresen y construyan significados a partir de su interacción con el entorno." },
+    { "numero": 13, "explicacion": "Las actividades prácticas permiten el aprendizaje a través de la experiencia directa, combinando teoría y acción." },
+    { "numero": 14, "explicacion": "La reflexión post-actividad ayuda a analizar lo aprendido y a ajustar la intervención para mejorar futuros aprendizajes." },
+    { "numero": 15, "explicacion": "Actividades que demandan discriminación sensorial fortalecen la atención y la capacidad de concentración del niño." },
+    { "numero": 16, "explicacion": "La integración de actividades lúdicas estimula la motivación y la creatividad, esenciales para el desarrollo integral." },
+    { "numero": 17, "explicacion": "Evaluar la intensidad y el impacto de la estimulación permite al educador ajustar las estrategias y evitar la sobrecarga sensorial." },
+    { "numero": 18, "explicacion": "Las experiencias sensoriales generan recuerdos significativos que facilitan la consolidación y recuperación de la información." },
+    { "numero": 19, "explicacion": "Interactuar con el entorno contextualiza la experiencia sensorial y le da significado, enriqueciendo el aprendizaje." },
+    { "numero": 20, "explicacion": "El uso de materiales visuales variados ayuda al reconocimiento y a la diferenciación de estímulos, apoyando el desarrollo perceptivo." },
+    { "numero": 21, "explicacion": "La estimulación auditiva contribuye a desarrollar la discriminación sonora y la atención, aspectos fundamentales en la comunicación." },
+    { "numero": 22, "explicacion": "La exploración de sabores y olores amplía el repertorio sensorial, vinculándose a la memoria y la experiencia afectiva." },
+    { "numero": 23, "explicacion": "La participación activa y el interés que generan estas actividades incrementan la motivación y el compromiso del alumno." },
+    { "numero": 24, "explicacion": "La retroalimentación permite reconocer aciertos y errores, facilitando el ajuste de estrategias de aprendizaje." },
+    { "numero": 25, "explicacion": "La exploración libre impulsa la curiosidad y el descubrimiento, pilares fundamentales del aprendizaje autónomo." },
+    { "numero": 26, "explicacion": "Las actividades artísticas integradas potencian la creatividad y la conexión entre emociones, percepción y pensamiento." },
+    { "numero": 27, "explicacion": "El educador debe diseñar y guiar las actividades, ajustándolas en función de la respuesta de cada niño para favorecer un aprendizaje personalizado." },
+    { "numero": 28, "explicacion": "Evaluar el impacto permite ajustar la intervención pedagógica y asegurar que se alcance el desarrollo integral esperado." },
+    { "numero": 29, "explicacion": "La integración de teoría y práctica mediante proyectos y actividades prácticas facilita la comprensión profunda y la aplicación de conceptos." },
+    { "numero": 30, "explicacion": "La educación sensoriomotora y cognitiva contribuye a un desarrollo global, combinando la estimulación de los sentidos con procesos de pensamiento y memoria para favorecer el aprendizaje integral." }
+  ]
+}
 
