@@ -1,0 +1,40 @@
+{
+  "examenes": [
+    {
+      "id": "examen1",
+      "titulo": "Examen Integrado de Psicomotricidad - Versión 1"
+    },
+    {
+      "id": "examen2",
+      "titulo": "Examen Integrado de Educación Sensoriomotora y Cognitiva - Versión 2"
+    },
+    {
+      "id": "examen3",
+      "titulo": "Examen Integrado de Evaluación de la Intervención - Versión 3"
+    },
+    {
+      "id": "examen4",
+      "titulo": "Examen Avanzado de Intervención Integral en Educación Infantil - Versión 4"
+    },
+    {
+      "id": "examen5",
+      "titulo": "Examen Avanzado de Intervención Integral en Educación Infantil - Versión 5"
+    },
+    {
+      "id": "examen6",
+      "titulo": "Examen Avanzado de Intervención Integral en Educación Infantil - Versión 6"
+    },
+    {
+      "id": "examen7",
+      "titulo": "Examen Avanzado Integrado en Educación Infantil - Versión 7"
+    },
+    {
+      "id": "examen8",
+      "titulo": "Examen Avanzado Integrado en Educación Infantil - Versión 8"
+    },
+    {
+      "id": "examen9",
+      "titulo": "Examen Avanzado Integrado en Educación Infantil - Versión 9"
+    }
+  ]
+}
