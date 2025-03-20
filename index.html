@@ -16,26 +16,30 @@
 </head>
 <body>
   <h1>Examen Interactivo</h1>
+  
   <!-- Sección para elegir el examen -->
   <div id="examenSeleccion"></div>
+  
   <!-- Sección que contendrá el examen -->
   <div id="contenidoExamen" style="display:none;"></div>
+  
   <!-- Sección para mostrar resultados -->
   <div id="resultado"></div>
+  
   <!-- Sección para revisar explicaciones de todas las preguntas -->
   <div id="revisarErrores" style="display:none;"></div>
 
   <script>
     // URL RAW del archivo índice en GitHub
-    const urlExamen = 'https://raw.githubusercontent.com/DigitaAvampace/Examenweb/main/indice.json';
+    const urlExamenIndice = 'https://raw.githubusercontent.com/DigitaAvampace/Examenweb/main/indice.json';
     
     // Variables globales
-    let examenesData = null;       // Almacena el arreglo de exámenes
-    let examenActual = null;       // Examen seleccionado
-    let respuestasUsuario = [];    // Almacena las respuestas del usuario
+    let examenesData = null;       // Array de exámenes (con metadata)
+    let examenActual = null;       // JSON completo del examen seleccionado (con preguntas, respuestas_correctas, banco_explicaciones)
+    let respuestasUsuario = [];    // Array para almacenar las respuestas del usuario
 
-    // Cargar el JSON desde GitHub
-    fetch(urlExamen)
+    // Cargar el archivo índice
+    fetch(urlExamenIndice)
       .then(response => {
         if (!response.ok) {
           throw new Error('No se pudo cargar el JSON. Revisa que uses la URL RAW y que el repositorio sea público.');
@@ -47,11 +51,11 @@
           throw new Error('El JSON no tiene la propiedad "examenes".');
         }
         examenesData = data.examenes;
-        // Se asume que el banco de explicaciones se incluye dentro de cada examen (como propiedad "banco_explicaciones")
+        // Mostrar listado de exámenes disponibles
         mostrarListadoExamenes();
       })
       .catch(error => {
-        document.body.innerHTML = '<p>Error al cargar el examen: ' + error.message + '</p>';
+        document.body.innerHTML = '<p>Error al cargar el índice: ' + error.message + '</p>';
       });
 
     // Función para mostrar la lista de exámenes
@@ -67,36 +71,51 @@
       });
     }
 
-    // Función para cargar y mostrar el examen seleccionado
+    // Función para cargar el examen seleccionado (haciendo fetch a su archivo JSON)
     function cargarExamen(indice) {
-      examenActual = examenesData[indice];
-      document.getElementById('examenSeleccion').style.display = 'none';
-      const divContenido = document.getElementById('contenidoExamen');
-      divContenido.style.display = 'block';
-      let html = `<h2>${examenActual.titulo}</h2>`;
-      html += `<p>${examenActual.instrucciones || ""}</p>`;
-      examenActual.preguntas.forEach((pregunta, i) => {
-        html += `<div class="pregunta">
-                   <p><strong>Pregunta ${pregunta.numero}:</strong> ${pregunta.pregunta}</p>`;
-        // Mostrar cada opción (se asume que son A, B, C y D)
-        for (const [clave, opcion] of Object.entries(pregunta.opciones)) {
-          html += `<label>
-                     <input type="radio" name="pregunta${i}" value="${clave}" required>
-                     ${clave}) ${opcion}
-                   </label><br>`;
-        }
-        html += `</div>`;
-      });
-      html += `<button onclick="enviarRespuestas()">Enviar Respuestas</button>`;
-      divContenido.innerHTML = html;
+      const urlExamenSeleccionado = examenesData[indice].ruta;
+      fetch(urlExamenSeleccionado)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Error al cargar el examen desde ' + urlExamenSeleccionado);
+          }
+          return response.json();
+        })
+        .then(data => {
+          examenActual = data; // Ahora el objeto completo del examen está en examenActual
+          document.getElementById('examenSeleccion').style.display = 'none';
+          const divContenido = document.getElementById('contenidoExamen');
+          divContenido.style.display = 'block';
+          let html = `<h2>${examenActual.titulo}</h2>`;
+          html += `<p>${examenActual.instrucciones || ""}</p>`;
+          // Reinicia respuestas del usuario
+          respuestasUsuario = [];
+          examenActual.preguntas.forEach((pregunta, i) => {
+            html += `<div class="pregunta">
+                       <p><strong>Pregunta ${pregunta.numero}:</strong> ${pregunta.pregunta}</p>`;
+            // Recorrer opciones (se espera que sean propiedades A, B, C, D)
+            for (const [clave, opcion] of Object.entries(pregunta.opciones)) {
+              html += `<label>
+                         <input type="radio" name="pregunta${i}" value="${clave}" required>
+                         ${clave}) ${opcion}
+                       </label><br>`;
+            }
+            html += `</div>`;
+          });
+          html += `<button onclick="enviarRespuestas()">Enviar Respuestas</button>`;
+          divContenido.innerHTML = html;
+        })
+        .catch(error => {
+          document.body.innerHTML = '<p>Error: ' + error.message + '</p>';
+        });
     }
 
-    // Función para procesar las respuestas del usuario
+    // Función para procesar las respuestas del usuario y mostrar resultados
     function enviarRespuestas() {
       let puntaje = 0;
       let total = examenActual.preguntas.length;
       let detalles = '';
-      respuestasUsuario = []; // Reinicia las respuestas del usuario
+      respuestasUsuario = [];
       examenActual.preguntas.forEach((pregunta, i) => {
         const radios = document.getElementsByName(`pregunta${i}`);
         let respuestaUsuario = null;
@@ -106,7 +125,7 @@
           }
         });
         respuestasUsuario.push({ numero: pregunta.numero, respuesta: respuestaUsuario });
-        // Obtener la respuesta correcta (asumiendo que "respuestas_correctas" es un array de objetos con propiedades "numero" y "respuesta")
+        // Buscar la respuesta correcta correspondiente
         let respuestaCorrecta = "";
         examenActual.respuestas_correctas.forEach(obj => {
           if (obj.numero === pregunta.numero) {
@@ -129,18 +148,18 @@
       document.getElementById('contenidoExamen').style.display = 'none';
     }
 
-    // Función para mostrar explicaciones de todas las preguntas (correctas e incorrectas)
+    // Función para mostrar las explicaciones de todas las preguntas (correctas e incorrectas)
     function mostrarRevisar() {
       let html = '<h2>Revisión y Explicaciones</h2>';
       examenActual.preguntas.forEach((pregunta, i) => {
-        // Obtener respuesta correcta
+        // Buscar la respuesta correcta
         let respuestaCorrecta = "";
         examenActual.respuestas_correctas.forEach(obj => {
           if (obj.numero === pregunta.numero) {
             respuestaCorrecta = obj.respuesta;
           }
         });
-        // Obtener explicación desde el banco de explicaciones (se asume que está en examenActual.banco_explicaciones)
+        // Buscar la explicación correspondiente en el banco de explicaciones
         let explicacionTexto = "";
         if (examenActual.banco_explicaciones) {
           examenActual.banco_explicaciones.forEach(expObj => {
@@ -149,7 +168,7 @@
             }
           });
         }
-        // Obtener respuesta del usuario de respuestasUsuario
+        // Obtener la respuesta del usuario (si fue respondida)
         let userResp = "";
         if (respuestasUsuario && respuestasUsuario[i]) {
           userResp = respuestasUsuario[i].respuesta;
