@@ -2,39 +2,48 @@
   "examenes": [
     {
       "id": "examen1",
-      "titulo": "Examen Integrado de Psicomotricidad - Versión 1"
+      "titulo": "Examen Integrado de Psicomotricidad - Versión 1",
+      "ruta": "examenes/examen1.json"
     },
     {
       "id": "examen2",
-      "titulo": "Examen Integrado de Educación Sensoriomotora y Cognitiva - Versión 2"
+      "titulo": "Examen Integrado de Educación Sensoriomotora y Cognitiva - Versión 2",
+      "ruta": "examenes/examen2.json"
     },
     {
       "id": "examen3",
-      "titulo": "Examen Integrado de Evaluación de la Intervención - Versión 3"
+      "titulo": "Examen Integrado de Evaluación de la Intervención - Versión 3",
+      "ruta": "examenes/examen3.json"
     },
     {
       "id": "examen4",
-      "titulo": "Examen Avanzado de Intervención Integral en Educación Infantil - Versión 4"
+      "titulo": "Examen Avanzado de Intervención Integral en Educación Infantil - Versión 4",
+      "ruta": "examenes/examen4.json"
     },
     {
       "id": "examen5",
-      "titulo": "Examen Avanzado de Intervención Integral en Educación Infantil - Versión 5"
+      "titulo": "Examen Avanzado de Intervención Integral en Educación Infantil - Versión 5",
+      "ruta": "examenes/examen5.json"
     },
     {
       "id": "examen6",
-      "titulo": "Examen Avanzado de Intervención Integral en Educación Infantil - Versión 6"
+      "titulo": "Examen Avanzado de Intervención Integral en Educación Infantil - Versión 6",
+      "ruta": "examenes/examen6.json"
     },
     {
       "id": "examen7",
-      "titulo": "Examen Avanzado Integrado en Educación Infantil - Versión 7"
+      "titulo": "Examen Avanzado Integrado en Educación Infantil - Versión 7",
+      "ruta": "examenes/examen7.json"
     },
     {
       "id": "examen8",
-      "titulo": "Examen Avanzado Integrado en Educación Infantil - Versión 8"
+      "titulo": "Examen Avanzado Integrado en Educación Infantil - Versión 8",
+      "ruta": "examenes/examen8.json"
     },
     {
       "id": "examen9",
-      "titulo": "Examen Avanzado Integrado en Educación Infantil - Versión 9"
+      "titulo": "Examen Avanzado Integrado en Educación Infantil - Versión 9",
+      "ruta": "examenes/examen9.json"
     }
   ]
 }
