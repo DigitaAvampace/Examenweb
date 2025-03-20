@@ -1,1 +1,371 @@
+{
+  "titulo": "Examen Integrado de Evaluación de la Intervención - Versión 3",
+  "instrucciones": "Responda las siguientes 30 preguntas de opción múltiple. Cada pregunta contiene cuatro alternativas (a, b, c, d). Justifique su respuesta mediante el análisis de procesos evaluativos en educación infantil, considerando la evaluación inicial, continua y final, los métodos de observación y el uso de instrumentos estandarizados. Se valorará el rigor analítico, la reflexión crítica y la capacidad para aplicar conceptos teóricos a situaciones prácticas.",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Cuál es el objetivo principal de la evaluación en la intervención educativa en la educación infantil?",
+      "opciones": {
+        "a": "Seleccionar a los alumnos con mejor rendimiento para programas especializados.",
+        "b": "Ajustar la acción educativa a las necesidades individuales y promover aprendizajes significativos.",
+        "c": "Establecer rankings comparativos basados en resultados numéricos.",
+        "d": "Imponer un modelo único de aprendizaje sin considerar diferencias individuales."
+      }
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué diferencia fundamental existe entre la evaluación inicial y la evaluación continua?",
+      "opciones": {
+        "a": "La inicial identifica conocimientos previos; la continua monitorea el progreso y permite ajustes en la intervención.",
+        "b": "Ambas se realizan únicamente al final del proceso educativo.",
+        "c": "La evaluación continua se utiliza para seleccionar a los alumnos destacados.",
+        "d": "La evaluación inicial se basa en pruebas orales y la continua en pruebas escritas."
+      }
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Por qué es crucial ajustar las estrategias educativas a partir de la evaluación continua?",
+      "opciones": {
+        "a": "Para imponer un ritmo uniforme sin considerar las diferencias individuales.",
+        "b": "Porque permite adaptar la enseñanza a las necesidades reales de cada alumno y favorecer el aprendizaje significativo.",
+        "c": "Para reducir la participación del educador en el proceso.",
+        "d": "Porque la evaluación continua solo recopila datos sin posibilidad de intervención."
+      }
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Qué papel tiene la observación en el proceso evaluativo en educación infantil?",
+      "opciones": {
+        "a": "Es el método básico para recoger información cualitativa del comportamiento y la interacción del alumno.",
+        "b": "No es relevante en la evaluación de la intervención educativa.",
+        "c": "Solo se utiliza en la evaluación final.",
+        "d": "Puede ser sustituida por pruebas estandarizadas sin pérdida de información."
+      }
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Cuál es la diferencia principal entre registros narrativos y listas de control en la observación?",
+      "opciones": {
+        "a": "Los registros narrativos ofrecen descripciones abiertas y detalladas; las listas de control verifican la presencia o ausencia de conductas específicas.",
+        "b": "Ambos métodos son idénticos en estructura y finalidad.",
+        "c": "Las listas de control son descriptivas y los registros narrativos cuantitativos.",
+        "d": "Los registros narrativos se utilizan únicamente fuera del ámbito educativo."
+      }
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué ventaja ofrecen las escalas de estimación en la evaluación de la intervención?",
+      "opciones": {
+        "a": "Permiten una valoración subjetiva sin criterios definidos.",
+        "b": "Facilitan la cuantificación objetiva del grado de manifestación de conductas, permitiendo comparaciones fiables.",
+        "c": "No requieren estructuración previa.",
+        "d": "Son menos precisas que los registros narrativos."
+      }
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Por qué no se debe utilizar la evaluación en educación infantil con fines de selección?",
+      "opciones": {
+        "a": "Porque se centra en ajustar la intervención educativa y favorecer el aprendizaje, no en clasificar o excluir alumnos.",
+        "b": "Porque no existen instrumentos confiables para la selección.",
+        "c": "Porque la selección es el objetivo principal de la evaluación.",
+        "d": "Porque la evaluación en este nivel es únicamente sumativa."
+      }
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Qué características debe tener un instrumento de evaluación estandarizado?",
+      "opciones": {
+        "a": "Un diseño riguroso, fundamentos teóricos claros, normas de aplicación y criterios de interpretación.",
+        "b": "Solo la cantidad de preguntas sin justificación teórica.",
+        "c": "Un método subjetivo sin manuales de uso.",
+        "d": "La ausencia de pautas que aseguren comparabilidad entre sujetos."
+      }
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Cómo contribuyen los instrumentos estandarizados al proceso evaluativo?",
+      "opciones": {
+        "a": "Proporcionan datos comparables y objetivos que facilitan la toma de decisiones fundamentadas en la intervención.",
+        "b": "No aportan información relevante para la intervención educativa.",
+        "c": "Se usan únicamente para la evaluación final sin incidencia en la intervención.",
+        "d": "Su aplicación es irrelevante en la práctica educativa actual."
+      }
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Cuáles son las principales ventajas y limitaciones de utilizar entrevistas en la evaluación educativa?",
+      "opciones": {
+        "a": "Ventaja: Permiten recopilar información amplia y cualitativa; Limitación: Requieren tiempo y habilidades interpretativas.",
+        "b": "Ventaja: Son rápidas y fáciles de aplicar; Limitación: No recogen datos cualitativos.",
+        "c": "Ventaja: Proporcionan resultados numéricos directos; Limitación: Son completamente estructuradas.",
+        "d": "Ventaja: Eliminan la necesidad de observación directa; Limitación: No permiten contrastar con la conducta no verbal."
+      }
+    },
+    {
+      "numero": 11,
+      "pregunta": "¿Qué se entiende por evaluación inicial en el contexto educativo?",
+      "opciones": {
+        "a": "Una evaluación que se realiza al final del proceso para certificar logros.",
+        "b": "Una valoración de los conocimientos y capacidades previas del alumno que sirve como base para planificar la intervención.",
+        "c": "Un método de clasificación para seleccionar a los mejores alumnos.",
+        "d": "Una evaluación sumativa sin incidencia en el proceso de enseñanza."
+      }
+    },
+    {
+      "numero": 12,
+      "pregunta": "¿Qué función cumple la evaluación final en la intervención educativa?",
+      "opciones": {
+        "a": "Determinar el grado de asimilación de los contenidos y servir de punto de partida para nuevos aprendizajes.",
+        "b": "Seleccionar a los alumnos para programas especializados.",
+        "c": "Reemplazar la evaluación continua sin ofrecer retroalimentación.",
+        "d": "Medir únicamente el rendimiento en pruebas estandarizadas."
+      }
+    },
+    {
+      "numero": 13,
+      "pregunta": "¿Por qué es importante la retroalimentación en el proceso evaluativo?",
+      "opciones": {
+        "a": "Porque permite imponer un modelo único sin ajustes.",
+        "b": "Porque facilita el ajuste de estrategias y la mejora continua del proceso educativo.",
+        "c": "Porque elimina la necesidad de evaluación inicial.",
+        "d": "Porque solo se utiliza para la evaluación final sin impacto en la enseñanza."
+      }
+    },
+    {
+      "numero": 14,
+      "pregunta": "¿Qué papel tiene el educador en el proceso evaluativo?",
+      "opciones": {
+        "a": "Solo recopila datos sin intervenir en la planificación.",
+        "b": "Diseña, aplica y ajusta estrategias evaluativas para mejorar la intervención educativa.",
+        "c": "Se limita a realizar pruebas sin analizar resultados.",
+        "d": "Delegar la evaluación en especialistas externos sin participación directa."
+      }
+    },
+    {
+      "numero": 15,
+      "pregunta": "¿Cómo se diferencia la evaluación cualitativa de la cuantitativa en educación infantil?",
+      "opciones": {
+        "a": "La cualitativa se basa en números y estadísticas; la cuantitativa en descripciones narrativas.",
+        "b": "La cualitativa se centra en el contexto y significado de las conductas; la cuantitativa en la medición numérica de las mismas.",
+        "c": "No existe diferencia entre ambas.",
+        "d": "La cualitativa es menos valiosa en la toma de decisiones pedagógicas."
+      }
+    },
+    {
+      "numero": 16,
+      "pregunta": "¿Cuál es la importancia de documentar el proceso evaluativo en la intervención educativa?",
+      "opciones": {
+        "a": "Para generar informes que no se utilizan en la práctica diaria.",
+        "b": "Para analizar el progreso, ajustar estrategias y compartir información relevante con la comunidad educativa y las familias.",
+        "c": "Solo se requiere en evaluaciones externas sin impacto en la intervención.",
+        "d": "Para crear registros que son meramente administrativos."
+      }
+    },
+    {
+      "numero": 17,
+      "pregunta": "¿Qué papel juegan los instrumentos de observación en la evaluación de la intervención?",
+      "opciones": {
+        "a": "Son la base para recoger información cualitativa sobre el comportamiento y la interacción del alumno.",
+        "b": "No son necesarios si se utilizan pruebas estandarizadas.",
+        "c": "Solo se usan para evaluar el rendimiento académico sin considerar el proceso.",
+        "d": "Su aplicación es irrelevante en la intervención educativa."
+      }
+    },
+    {
+      "numero": 18,
+      "pregunta": "¿Por qué es esencial considerar aspectos éticos en la evaluación educativa?",
+      "opciones": {
+        "a": "Porque la ética limita la aplicación de evaluaciones rigurosas.",
+        "b": "Porque garantiza el respeto a la diversidad, la confidencialidad y el derecho a un trato justo para todos los alumnos.",
+        "c": "Porque solo se requiere en contextos de investigación.",
+        "d": "Porque impide el uso de instrumentos estandarizados."
+      }
+    },
+    {
+      "numero": 19,
+      "pregunta": "¿Cómo se relaciona la evaluación con la mejora de la intervención educativa?",
+      "opciones": {
+        "a": "La evaluación es un proceso aislado sin incidencia en la intervención.",
+        "b": "La evaluación proporciona datos que permiten ajustar y optimizar las estrategias educativas de manera continua.",
+        "c": "La evaluación se realiza solo al final sin retroalimentación.",
+        "d": "No tiene relación directa con la mejora del proceso de enseñanza."
+      }
+    },
+    {
+      "numero": 20,
+      "pregunta": "¿Qué importancia tienen las escalas de estimación en el contexto evaluativo?",
+      "opciones": {
+        "a": "Son irrelevantes si se utiliza la observación directa.",
+        "b": "Ofrecen una forma sistemática y cuantificable de valorar el grado de manifestación de conductas o habilidades.",
+        "c": "Solo se usan en pruebas estandarizadas sin aplicación práctica.",
+        "d": "Son menos precisas que las entrevistas sin estructuración."
+      }
+    },
+    {
+      "numero": 21,
+      "pregunta": "¿Cuál es el propósito de utilizar múltiples métodos (observación, entrevistas, instrumentos estandarizados) en la evaluación?",
+      "opciones": {
+        "a": "Porque ningún método es suficiente por sí solo para obtener una visión completa del desarrollo del alumno.",
+        "b": "Porque se requiere únicamente un método para simplificar el proceso.",
+        "c": "Porque la combinación de métodos genera confusión en la interpretación de datos.",
+        "d": "Porque se busca reemplazar la observación con pruebas estandarizadas."
+      }
+    },
+    {
+      "numero": 22,
+      "pregunta": "¿Qué ventaja ofrece la evaluación cualitativa en el ámbito de la intervención educativa?",
+      "opciones": {
+        "a": "Permite obtener datos numéricos precisos sin contexto.",
+        "b": "Ofrece una comprensión profunda de las experiencias, actitudes y procesos subyacentes al comportamiento del alumno.",
+        "c": "Es menos útil que la evaluación cuantitativa para la toma de decisiones.",
+        "d": "Se limita a la recolección de información anecdótica sin análisis sistemático."
+      }
+    },
+    {
+      "numero": 23,
+      "pregunta": "¿Por qué es importante compartir los resultados de la evaluación con la comunidad educativa y las familias?",
+      "opciones": {
+        "a": "Para generar competencia entre alumnos sin fines formativos.",
+        "b": "Para facilitar la colaboración, el ajuste de la intervención y el seguimiento del progreso del alumno de manera integral.",
+        "c": "Porque los resultados solo se utilizan para informes internos sin impacto en la intervención.",
+        "d": "Para clasificar a los alumnos sin ofrecer estrategias de mejora."
+      }
+    },
+    {
+      "numero": 24,
+      "pregunta": "¿Qué se entiende por evaluación formativa en el contexto de la intervención educativa?",
+      "opciones": {
+        "a": "Una evaluación que se realiza exclusivamente al final del proceso.",
+        "b": "Un proceso continuo que permite recoger información para ajustar y mejorar la intervención educativa.",
+        "c": "Una evaluación que solo se utiliza para certificar conocimientos sin retroalimentación.",
+        "d": "Un método de clasificación sin incidencia en el proceso de enseñanza."
+      }
+    },
+    {
+      "numero": 25,
+      "pregunta": "¿Cómo se puede garantizar la objetividad en la evaluación educativa?",
+      "opciones": {
+        "a": "Utilizando únicamente métodos subjetivos sin pautas claras.",
+        "b": "Aplicando instrumentos estandarizados y protocolos estructurados que permitan la comparabilidad de resultados.",
+        "c": "Dejando que la evaluación se base en impresiones personales del educador.",
+        "d": "Evitando el uso de cualquier tipo de protocolo o instrumento formal."
+      }
+    },
+    {
+      "numero": 26,
+      "pregunta": "¿Qué significa la estandarización de un instrumento de evaluación?",
+      "opciones": {
+        "a": "Que se aplica de forma aleatoria sin instrucciones específicas.",
+        "b": "Que cuenta con un diseño riguroso, pautas de aplicación y criterios de interpretación que garantizan la comparabilidad de datos.",
+        "c": "Que se adapta de forma individualizada sin protocolos fijos.",
+        "d": "Que solo se utiliza en contextos no educativos."
+      }
+    },
+    {
+      "numero": 27,
+      "pregunta": "¿Cuál es la función de la documentación sistemática en el proceso evaluativo?",
+      "opciones": {
+        "a": "Generar informes administrativos sin valor pedagógico.",
+        "b": "Registrar el proceso, facilitar el análisis de datos y permitir la retroalimentación para mejorar la intervención.",
+        "c": "Solo se utiliza para evaluaciones externas sin impacto en la práctica diaria.",
+        "d": "Servir únicamente como respaldo en caso de reclamos legales."
+      }
+    },
+    {
+      "numero": 28,
+      "pregunta": "¿Qué relevancia tiene la observación participante en la evaluación educativa?",
+      "opciones": {
+        "a": "No aporta valor al proceso de evaluación.",
+        "b": "Permite al evaluador interactuar y obtener información contextualizada y profunda sobre el comportamiento del alumno.",
+        "c": "Se utiliza únicamente para evaluar habilidades académicas sin considerar la interacción social.",
+        "d": "Es menos útil que la observación no participante en contextos educativos."
+      }
+    },
+    {
+      "numero": 29,
+      "pregunta": "¿Cómo se pueden combinar los resultados de métodos cualitativos y cuantitativos en la evaluación?",
+      "opciones": {
+        "a": "Se deben analizar por separado sin integrarlos.",
+        "b": "La integración de ambos tipos de datos ofrece una visión completa y enriquecida del proceso de aprendizaje.",
+        "c": "Solo se utiliza uno de los dos métodos para evitar confusiones.",
+        "d": "La combinación no es posible debido a la naturaleza distinta de los datos."
+      }
+    },
+    {
+      "numero": 30,
+      "pregunta": "¿Cuál es el aporte global de la evaluación en la mejora de la intervención educativa en la infancia?",
+      "opciones": {
+        "a": "Se limita a la clasificación de los alumnos sin aportar estrategias de mejora.",
+        "b": "Proporciona información esencial para ajustar la enseñanza, potenciar el aprendizaje y promover el desarrollo integral del alumno.",
+        "c": "Solo se utiliza para informes externos sin impacto en la práctica pedagógica.",
+        "d": "Es irrelevante para la mejora continua del proceso educativo."
+      }
+    }
+  ],
+  "respuestas_correctas": [
+    { "numero": 1, "respuesta": "b" },
+    { "numero": 2, "respuesta": "a" },
+    { "numero": 3, "respuesta": "b" },
+    { "numero": 4, "respuesta": "a" },
+    { "numero": 5, "respuesta": "a" },
+    { "numero": 6, "respuesta": "b" },
+    { "numero": 7, "respuesta": "a" },
+    { "numero": 8, "respuesta": "a" },
+    { "numero": 9, "respuesta": "a" },
+    { "numero": 10, "respuesta": "a" },
+    { "numero": 11, "respuesta": "b" },
+    { "numero": 12, "respuesta": "a" },
+    { "numero": 13, "respuesta": "b" },
+    { "numero": 14, "respuesta": "b" },
+    { "numero": 15, "respuesta": "b" },
+    { "numero": 16, "respuesta": "b" },
+    { "numero": 17, "respuesta": "b" },
+    { "numero": 18, "respuesta": "b" },
+    { "numero": 19, "respuesta": "b" },
+    { "numero": 20, "respuesta": "b" },
+    { "numero": 21, "respuesta": "a" },
+    { "numero": 22, "respuesta": "b" },
+    { "numero": 23, "respuesta": "b" },
+    { "numero": 24, "respuesta": "b" },
+    { "numero": 25, "respuesta": "b" },
+    { "numero": 26, "respuesta": "b" },
+    { "numero": 27, "respuesta": "b" },
+    { "numero": 28, "respuesta": "b" },
+    { "numero": 29, "respuesta": "b" },
+    { "numero": 30, "respuesta": "b" }
+  ],
+  "banco_explicaciones": [
+    { "numero": 1, "explicacion": "La evaluación en educación infantil se centra en ajustar la intervención para favorecer aprendizajes significativos, no en clasificar alumnos." },
+    { "numero": 2, "explicacion": "La evaluación inicial permite conocer el punto de partida del alumno, lo cual es fundamental para diseñar intervenciones personalizadas." },
+    { "numero": 3, "explicacion": "La evaluación continua posibilita la adaptación de las estrategias pedagógicas a lo largo del proceso formativo." },
+    { "numero": 4, "explicacion": "La observación es esencial para recoger información cualitativa sobre el comportamiento y la interacción, proporcionando datos ricos para la intervención." },
+    { "numero": 5, "explicacion": "Los registros narrativos y las listas de control se diferencian en que el primero ofrece descripciones detalladas y el segundo una verificación puntual de conductas." },
+    { "numero": 6, "explicacion": "Las escalas de estimación permiten medir objetivamente el grado en que se manifiestan ciertas conductas, facilitando comparaciones." },
+    { "numero": 7, "explicacion": "La evaluación en la infancia se orienta a mejorar la intervención educativa y a promover el desarrollo integral, no a seleccionar o clasificar." },
+    { "numero": 8, "explicacion": "Un instrumento estandarizado debe contar con un diseño riguroso y criterios claros para asegurar la comparabilidad de los resultados." },
+    { "numero": 9, "explicacion": "Los instrumentos estandarizados proporcionan datos objetivos que, integrados en el proceso evaluativo, facilitan la toma de decisiones pedagógicas." },
+    { "numero": 10, "explicacion": "Las entrevistas permiten recopilar información cualitativa profunda, aunque requieren mayor tiempo y habilidades interpretativas." },
+    { "numero": 11, "explicacion": "La evaluación inicial es crucial para identificar los conocimientos y capacidades previas, sirviendo de base para planificar la intervención." },
+    { "numero": 12, "explicacion": "La evaluación final mide el grado de asimilación de los contenidos y sirve para planificar futuros aprendizajes." },
+    { "numero": 13, "explicacion": "La retroalimentación es clave para ajustar estrategias y promover la mejora continua en el proceso educativo." },
+    { "numero": 14, "explicacion": "El educador tiene la responsabilidad de diseñar, aplicar y ajustar la evaluación, lo que repercute directamente en la eficacia de la intervención." },
+    { "numero": 15, "explicacion": "La evaluación cualitativa se centra en comprender el significado y contexto de las conductas, mientras que la cuantitativa mide en números." },
+    { "numero": 16, "explicacion": "Documentar el proceso evaluativo permite analizar el progreso y ajustar estrategias, generando un registro valioso para la mejora continua." },
+    { "numero": 17, "explicacion": "Los métodos de observación aportan información detallada y contextualizada sobre el comportamiento del alumno, base fundamental para la intervención." },
+    { "numero": 18, "explicacion": "Considerar aspectos éticos garantiza un trato justo, respeta la diversidad y protege la confidencialidad de los datos de los alumnos." },
+    { "numero": 19, "explicacion": "La evaluación proporciona información esencial para ajustar la enseñanza y optimizar el proceso de aprendizaje, promoviendo un desarrollo integral." },
+    { "numero": 20, "explicacion": "Las escalas de estimación ofrecen una forma estructurada y cuantificable de valorar conductas, complementando otros métodos evaluativos." },
+    { "numero": 21, "explicacion": "La combinación de métodos cualitativos y cuantitativos permite obtener una visión completa y enriquecida del proceso de aprendizaje." },
+    { "numero": 22, "explicacion": "La evaluación cualitativa aporta profundidad en el análisis del comportamiento y las experiencias del alumno, permitiendo interpretaciones significativas." },
+    { "numero": 23, "explicacion": "Compartir los resultados fortalece la colaboración entre la comunidad educativa y las familias, facilitando el seguimiento y la mejora de la intervención." },
+    { "numero": 24, "explicacion": "La evaluación formativa es un proceso continuo que permite recoger información y ajustar la intervención educativa en tiempo real." },
+    { "numero": 25, "explicacion": "La objetividad se garantiza mediante el uso de instrumentos estandarizados y protocolos claros que minimizan la subjetividad." },
+    { "numero": 26, "explicacion": "La estandarización implica un diseño riguroso con normas de aplicación que aseguran la comparabilidad de los resultados entre diferentes sujetos." },
+    { "numero": 27, "explicacion": "La documentación sistemática es esencial para registrar el proceso evaluativo, facilitar el análisis y proporcionar retroalimentación para mejorar la intervención." },
+    { "numero": 28, "explicacion": "La observación participante permite al evaluador interactuar y obtener información contextualizada, enriqueciendo el proceso de evaluación." },
+    { "numero": 29, "explicacion": "Integrar métodos cualitativos y cuantitativos aporta una visión holística del proceso educativo, combinando la riqueza del contexto con datos medibles." },
+    { "numero": 30, "explicacion": "La evaluación es fundamental para ajustar la enseñanza, potenciar el aprendizaje y promover el desarrollo integral, siendo un pilar de la mejora continua en la intervención educativa." }
+  ]
+}
 
